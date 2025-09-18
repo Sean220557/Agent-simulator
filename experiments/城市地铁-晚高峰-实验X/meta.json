@@ -1,0 +1,11 @@
+{
+  "name": "城市地铁-晚高峰-实验X",
+  "slug": "城市地铁-晚高峰-实验X",
+  "relation_influence": 0.8,
+  "count": 120,
+  "paths": {
+    "agents": "experiments/城市地铁-晚高峰-实验X/agents.json",
+    "env": "experiments/城市地铁-晚高峰-实验X/env.json",
+    "logs": "experiments/城市地铁-晚高峰-实验X/logs/agents"
+  }
+}

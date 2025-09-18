@@ -1,0 +1,5586 @@
+{
+  "agent_1ce88a1f974245ada881775aad04945c": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.6
+    }
+  },
+  "agent_de359975d19a438dba15088a2c0d89da": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.76
+    }
+  },
+  "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.75
+    }
+  },
+  "agent_6899636cfed04fa488ba0c13669f34d4": {
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.6
+    }
+  },
+  "agent_3001427a421a4eafb84635ace77f84f4": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.78
+    }
+  },
+  "agent_32f581f10920401d846423f4ba30ea95": {
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.76
+    }
+  },
+  "agent_6121d379413140ef8536a7b2a70c1d73": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.79
+    }
+  },
+  "agent_706a3c942cca47358328ccb1cde7e0f9": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.75
+    }
+  },
+  "agent_0153c4cc4c5542278dea0c0be28ba132": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.69
+    }
+  },
+  "agent_ea0db733246c455a843edd6da2c1fb68": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.63
+    }
+  },
+  "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.59
+    }
+  },
+  "agent_afabb375068c4103999a10c04ac18fb8": {
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.64
+    }
+  },
+  "agent_06a01019c0724d0798d40495cd20df49": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.61
+    }
+  },
+  "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.6
+    }
+  },
+  "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.57
+    }
+  },
+  "agent_accda5b66b10452a9e841638f8f29006": {
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.59
+    }
+  },
+  "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.62
+    }
+  },
+  "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_236428b82c98412898abd8d6b251870a": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.63
+    }
+  },
+  "agent_6a171e9717a64d61be1f23eabf9ce313": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.77
+    }
+  },
+  "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.74
+    }
+  },
+  "agent_72f4c884ba674cad9ea058f68817b0e2": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.69
+    }
+  },
+  "agent_88e85bdc35f54184976d4992398eec5d": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.74
+    }
+  },
+  "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.62
+    }
+  },
+  "agent_6a096935b43f42e6bda2dbb657553789": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.73
+    }
+  },
+  "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.73
+    }
+  },
+  "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.58
+    }
+  },
+  "agent_521350fe94f84ee69297c8d26612fb74": {
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.6
+    }
+  },
+  "agent_86739a6126574e2d8ccaadee64092461": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.77
+    }
+  },
+  "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.57
+    }
+  },
+  "agent_67f329dcc8cf418092a084d5b722fa92": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.63
+    }
+  },
+  "agent_d9f64493f3d840679f946697b19ab6b8": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_b7baa7c2396e417f8c8379050ec25822": {
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.74
+    }
+  },
+  "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.57
+    }
+  },
+  "agent_30dd993c92364891895ce88e76c88ff7": {
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.61
+    }
+  },
+  "agent_44bb6874005447c08c942a92f1031948": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.65
+    }
+  },
+  "agent_206beccaa21b47469874cedd1b2810de": {
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.72
+    }
+  },
+  "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.73
+    }
+  },
+  "agent_37447e61bb9440479d5faf4faaa88f9c": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.58
+    }
+  },
+  "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_30665d155356446ca70406d860203914": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.8
+    }
+  },
+  "agent_67654cb246ed4908a42c07e30fa5b52e": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.58
+    }
+  },
+  "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_7409a1cbb55342698b1494cd6cef287d": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.57
+    }
+  },
+  "agent_ee6c3580f80a4bcb866116032ebef87e": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.73
+    }
+  },
+  "agent_4dadd5f6da174d03ae27611be5210eed": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.7
+    }
+  },
+  "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.57
+    }
+  },
+  "agent_83fac0e482084de5855eaa3b0e245419": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.8
+    }
+  },
+  "agent_a02571cce25c46909a8173bf624279e5": {
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_3001427a421a4eafb84635ace77f84f4": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.77
+    }
+  },
+  "agent_1562e386b6464439ad859081c5c1024a": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.66
+    }
+  },
+  "agent_6358873802ce4a07a726fdbeed9b3345": {
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.72
+    }
+  },
+  "agent_5dda1409a81f4128ae687e2292439001": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.59
+    }
+  },
+  "agent_ef3980d943e6490abe6505417f45e61f": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_37447e61bb9440479d5faf4faaa88f9c": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.58
+    }
+  },
+  "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.55
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_6121d379413140ef8536a7b2a70c1d73": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_9e5d14d91c78476bb2b73f9dacf95d23": {
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_7409a1cbb55342698b1494cd6cef287d": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.74
+    }
+  },
+  "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_32f581f10920401d846423f4ba30ea95": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.79
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_80fecfaf74b3414c9432dc4fbf65c4a4": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.66
+    }
+  },
+  "agent_775c21a137b1499180cab5ca4929e17e": {
+    "agent_706a3c942cca47358328ccb1cde7e0f9": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.71
+    },
+    "agent_d7fa1f2596f64094b91cab2b94b0c68c": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_afabb375068c4103999a10c04ac18fb8": {
+      "type": "coworker",
+      "strength": 0.64
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.56
+    },
+    "agent_87bda02e98ca46608ff9ffbb6a039fac": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_1eedaa3780964a5c9492dfefff82cf5d": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.62
+    },
+    "agent_8edf87cac36f4285a4993d6b2efd4ace": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_53160567fcf74c92b04ee4e4d65ce2cc": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_d9f64493f3d840679f946697b19ab6b8": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_8ad6c16f291f41bcaace3ebf991e594c": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_30665d155356446ca70406d860203914": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_df3d20d6f8034d7383bb8cb776598cfb": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_4dadd5f6da174d03ae27611be5210eed": {
+      "type": "coworker",
+      "strength": 0.7
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_a02571cce25c46909a8173bf624279e5": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_6358873802ce4a07a726fdbeed9b3345": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.73
+    }
+  },
+  "agent_028b311703174ba2a70a1877c7d8fa7d": {
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_1af5e9ad97fd487490ed39d6ce09d257": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_6899636cfed04fa488ba0c13669f34d4": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_0153c4cc4c5542278dea0c0be28ba132": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6a171e9717a64d61be1f23eabf9ce313": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_0f300ab815e1406e87710dfbdbfabfa3": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_6a096935b43f42e6bda2dbb657553789": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_86739a6126574e2d8ccaadee64092461": {
+      "type": "coworker",
+      "strength": 0.77
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.75
+    },
+    "agent_b7baa7c2396e417f8c8379050ec25822": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_206beccaa21b47469874cedd1b2810de": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.78
+    },
+    "agent_67654cb246ed4908a42c07e30fa5b52e": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_ee6c3580f80a4bcb866116032ebef87e": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_f2a78a1f47be46b0aa1b29f79c18c93c": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_5dda1409a81f4128ae687e2292439001": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_775c21a137b1499180cab5ca4929e17e": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+      "type": "coworker",
+      "strength": 0.67
+    }
+  },
+  "agent_d0002d54840b4eed8fb6fd8c75a7794a": {
+    "agent_1ce88a1f974245ada881775aad04945c": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_de359975d19a438dba15088a2c0d89da": {
+      "type": "coworker",
+      "strength": 0.76
+    },
+    "agent_ea0db733246c455a843edd6da2c1fb68": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_06a01019c0724d0798d40495cd20df49": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_ab32eb97bd4c4d669b2e45f84c933307": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_0ec0fbcc43d1468aa53b4fe5b4e2913a": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_accda5b66b10452a9e841638f8f29006": {
+      "type": "coworker",
+      "strength": 0.59
+    },
+    "agent_236428b82c98412898abd8d6b251870a": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_72f4c884ba674cad9ea058f68817b0e2": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_88e85bdc35f54184976d4992398eec5d": {
+      "type": "coworker",
+      "strength": 0.74
+    },
+    "agent_5e138ddc70c54a5f89e7ea8b9e23bb0d": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_521350fe94f84ee69297c8d26612fb74": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_67f329dcc8cf418092a084d5b722fa92": {
+      "type": "coworker",
+      "strength": 0.63
+    },
+    "agent_6bbd90c3c9dc4edc8acd55d4fc438eb8": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_afd2f6f2fe344dcebc61fc7dfc1047fd": {
+      "type": "coworker",
+      "strength": 0.57
+    },
+    "agent_30dd993c92364891895ce88e76c88ff7": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_44bb6874005447c08c942a92f1031948": {
+      "type": "coworker",
+      "strength": 0.65
+    },
+    "agent_de0d427aafb2477fb26e40a4bd6b6ab3": {
+      "type": "coworker",
+      "strength": 0.73
+    },
+    "agent_83fac0e482084de5855eaa3b0e245419": {
+      "type": "coworker",
+      "strength": 0.8
+    },
+    "agent_1562e386b6464439ad859081c5c1024a": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_ef3980d943e6490abe6505417f45e61f": {
+      "type": "coworker",
+      "strength": 0.58
+    },
+    "agent_a9ce488e9a334cbca16781a7b571ebcf": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_6d14cad408b644f8a8f2763b7b4eff13": {
+      "type": "coworker",
+      "strength": 0.66
+    },
+    "agent_028b311703174ba2a70a1877c7d8fa7d": {
+      "type": "coworker",
+      "strength": 0.67
+    }
+  }
+}

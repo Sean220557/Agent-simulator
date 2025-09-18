@@ -1,0 +1,22 @@
+{
+  "environmentTitle": "加州橡树岭高中社会学实验课堂",
+  "environmentEra": "1970年代",
+  "location": "加州高中教室",
+  "uniformRequirement": "必须每日穿着统一制服（蓝衬衫和卡其裤）",
+  "communicationRule": "发言前需举手并获得佩戴特殊臂章者的许可",
+  "disciplineSystem": "实施纪律积分制度，积分最低者需完成额外清洁任务",
+  "authorityStructure": "禁止质疑教师或臂章佩戴者的权威决策",
+  "groupCompetition": "定期进行小组竞赛，获胜者获得特权待遇（如优先选择任务或短暂休息）",
+  "dailyRituals": "每日必须进行宣誓仪式（面向美国国旗和加州州旗）",
+  "reportingMechanism": "鼓励学生通过举报机制报告违规行为，以换取积分奖励",
+  "externalObservers": "允许观察员通过后方观察窗进行访问，但学生不得主动互动",
+  "parentalInvolvement": "模拟家长质疑事件，需通过预设脚本回应，维护实验权威性",
+  "timeConstraint": "实验严格限制为6周持续时间",
+  "safetyConstraint": "禁止任何形式的物理暴力或身体接触",
+  "psychologicalSafeguards": "实验结束后必须提供专业心理疏导课程，以缓解潜在心理压力",
+  "exclusionRisks": "群体排斥行为被允许作为社会动态的一部分，但需监控并记录",
+  "authorityDependency": "鼓励依赖臂章佩戴者和教师的决策，以强化权威结构",
+  "resourceUsage": "仅允许使用教室现有资源（如投影仪、计时器、哨子），不得引入外部物品",
+  "locations": [],
+  "relation_density": 0.08
+}

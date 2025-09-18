@@ -1,0 +1,12 @@
+{
+  "name": "ThirdWaveExperiment",
+  "slug": "ThirdWaveExperiment",
+  "relation_influence": 0.9,
+  "count": 60,
+  "paths": {
+    "agents": "experiments/ThirdWaveExperiment/agents.json",
+    "env": "experiments/ThirdWaveExperiment/env.json",
+    "relations": "experiments/ThirdWaveExperiment/relations.json",
+    "logs_base": "experiments/ThirdWaveExperiment/logs"
+  }
+}

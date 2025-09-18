@@ -1,0 +1,76 @@
+{
+  "groupConstructionConstraints": {
+    "uniformityEnforcement": {
+      "description": "强制统一着装与行为标准化",
+      "parameters": {
+        "allowedClothing": [
+          "prescribedSchoolUniform"
+        ],
+        "prohibitedBehaviors": [
+          "individualExpression",
+          "nonConformistAppearance"
+        ],
+        "complianceCheckFrequency": "daily"
+      }
+    },
+    "collectiveRituals": {
+      "description": "每日集体仪式强化群体认同",
+      "parameters": {
+        "mandatoryActivities": [
+          "morningPledge",
+          "groupGestures"
+        ],
+        "participationMonitoring": "teacherLedScoring",
+        "exclusionPenalty": "socialIsolationPoints"
+      }
+    },
+    "authorityStructure": {
+      "description": "严格层级权威体系",
+      "parameters": {
+        "unquestionableFigures": [
+          "teacher"
+        ],
+        "approvalRequiredFor": [
+          "curriculumQuestions",
+          "movementRequests"
+        ],
+        "challengeConsequence": "gradeReduction"
+      }
+    },
+    "surveillanceMechanisms": {
+      "description": "同伴互监与举报制度",
+      "parameters": {
+        "reportingIncentives": [
+          "recognitionPoints",
+          "avoidanceOfCollectivePunishment"
+        ],
+        "monitoredAspects": [
+          "uniformViolations",
+          "pledgeRefusal",
+          "unauthorizedMaterials"
+        ]
+      }
+    },
+    "conformityPressure": {
+      "description": "群体优先的从众压力",
+      "parameters": {
+        "groupActivityMandate": "requiredParticipation",
+        "individualChoiceRestriction": "noSoloActions",
+        "devianceResponse": [
+          "immediateCorrection",
+          "peerAdmonishment"
+        ]
+      }
+    },
+    "temporalConstraint": {
+      "description": "加速时间框架下的行为固化",
+      "parameters": {
+        "simulationToRealityRatio": "1hour:1day",
+        "behaviorReinforcementCycles": "dailyRepetition",
+        "adaptationWindow": "immediateComplianceRequired"
+      }
+    }
+  },
+  "locations": [],
+  "relation_density": 0.08
+}

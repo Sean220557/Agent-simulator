@@ -1,0 +1,12 @@
+{
+  "name": "第三浪潮实验",
+  "slug": "第三浪潮实验",
+  "relation_influence": 0.9,
+  "count": 60,
+  "paths": {
+    "agents": "experiments/第三浪潮实验/agents.json",
+    "env": "experiments/第三浪潮实验/env.json",
+    "relations": "experiments/第三浪潮实验/relations.json",
+    "logs_base": "experiments/第三浪潮实验/logs"
+  }
+}
