@@ -1,44 +1,58 @@
+# Multi-Agent Social Simulation Platform
 
-# AgentSociety-Style Multi-Agent Backend (Modular, DB)
+This project is a **multi-agent simulation framework** powered by LLMs (e.g., DeepSeek-Chat).  
+It enables researchers to design **social experiments in silico**, where agents with realistic personas interact within shared environments.  
+Inspired by controversial experiments such as *The Third Wave*, this platform provides a **safe and ethical alternative** for studying collective behavior, authority, conformity, and social dynamics.
 
-后端仅版（无前端），基于 FastAPI，具备：
-- 场景下添加智能体（性别/语言/背景/特质）
-- 回合制步骤生成：(think/speak/move/interact/idle)
-- SQLite 持久化：agents / actions / dialogues / logs
-- LLM 接口抽象（可替换为 OpenAI/Qwen/DeepSeek 等）
+---
 
-## 运行
+## ✨ Features
+
+- **Experiment Management**
+  - Create isolated experiment directories with environment specs, agents, relations, and logs.
+  - Each experiment has its own `agents.json`, `env.json`, `relations.json`, and log files.
+
+- **Persona Generation**
+  - Agents have realistic **English names** (first + last).
+  - Personas include gender, age, occupation, education, income, description, initial memory & state.
+  - Supports **LLM-based generation** with fallback **local synthesis** to ensure diversity.
+  - Demographic and occupational distribution can be guided by constraints or inferred from environment.
+
+- **Environment Modeling**
+  - Environments are expanded from a simple `--env-hint` into a detailed `env.json`:
+    - Title
+    - Prompt (detailed description)
+    - Rules (explicit constraints)
+  - Example: “1960s American high school classroom” → generates classroom, cafeteria, gym, etc.
+
+- **Relation Graph**
+  - Each experiment includes a **social relation network** (`relations.json`).
+  - Relations (family, coworker, neighbor, acquaintance) influence interaction probability and trust.
+  - Strength factor (`0–1`) controls frequency and reliability of interactions.
+
+- **Simulation Loop**
+  - Tick-based simulation (`app_loop`) advances time automatically (default: every 60s).
+  - Agents update action, speech, state, thoughts, and memory each tick.
+  - Group encounters at the same location are simulated with **hard constraints** from relations.
+  - Logs are saved both per-agent and as collective events.
+
+- **Logging & Analysis**
+  - `logs/agents/<agent>.jsonl` → each agent’s step-by-step log.
+  - `logs/events/encounters.jsonl` → all group events per tick.
+  - JSONL format enables downstream **quantitative analysis** and **visualization**.
+
+---
+
+## 📦 Installation
+
 ```bash
-pip install fastapi uvicorn pydantic
-uvicorn app.api:app --reload --port 8000
-```
+# clone repo
+git clone <this-repo>
+cd agentsociety_backend
 
-## API
-- `POST /agents` 添加智能体
-- `POST /tick?steps=N` 推进 N 回合
-- `GET /logs` 查看日志
-- `GET /dialogue` 查看对话
-- `GET /actions` 查看动作
-- `GET /agents` 查看所有智能体
+# create environment (example: conda)
+conda create -n agentsociety python=3.11
+conda activate agentsociety
 
-## 配置
-- 默认数据库：`agentsociety.db`（同目录），可通过环境变量 `DB_PATH` 覆盖
-- 如需真实 LLM，参考 `app/llm.py` 中的 `OpenAIClient` 示例，实现后在 `app/engine.py` 构造 `Engine(llm=YourClient())`
-
-## 目录结构
-```
-agentsociety_backend/
-  app/
-    __init__.py
-    api.py        # FastAPI 路由
-    engine.py     # 引擎（动作决定 + 落库）
-    models.py     # 基本枚举/Agent 数据结构
-    llm.py        # LLM 抽象与占位实现
-    db.py         # SQLite 连接与初始化
-    config.py     # 配置项
-  README.md
-```
-
-## 注意
-- 此版本使用简单的 sqlite3 全局连接（check_same_thread=False）。生产请考虑 SQLAlchemy + 连接池，或每请求单连接。
-- 该结构保持了与 AgentSociety 项目相似的“LLM 层可插拔”的理念，方便替换与扩展。
+# install dependencies
+pip install -r requirements.txt
