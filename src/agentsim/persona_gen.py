@@ -3,6 +3,7 @@ import uuid
 import random
 from typing import Dict, Any, Optional, List
 from .llm import chat_json
+from .emotion_model import EmotionGenerator, EmotionProfile
 
 # ===== Enumerations (EN) =====
 GENDER_OPTIONS = ["Male", "Female", "Non-binary/Other"]
@@ -81,7 +82,7 @@ Required JSON schema:
   "education": "Education level in English",
   "description": "1-2 sentences in English",
   "initial_memory": ["at least 3 short English items"],
-  "initial_state": {{"location": "must be one of environment locations if known, else 'Start'", "mood": "e.g., calm/curious/anxious"}}
+  "initial_state": {{"location": "must be one of environment locations if known, else 'Start'", "mood": "e.g., calm/curious/anxious", "emotion": "emotion profile with numerical values"}}
 }}"""
 
 BATCH_USER_TPL_ENV = """Generate {n} persona JSON objects in ENGLISH only.
@@ -210,6 +211,19 @@ def _normalize_persona(data: Dict[str, Any], fallback_name: Optional[str] = None
         init_state = {"location": "Start", "mood": "calm"}
     init_state.setdefault("location", "Start")
     init_state.setdefault("mood", "calm")
+    
+    # 生成初始情绪画像
+    if "emotion" not in init_state or not isinstance(init_state.get("emotion"), dict):
+        # 基于mood和人格描述生成情绪
+        mood_str = init_state.get("mood", "calm")
+        personality_desc = description
+        
+        # 生成情绪画像
+        emotion = EmotionGenerator.generate_from_context(
+            f"Initial mood: {mood_str}, Personality: {personality_desc}",
+            {"description": personality_desc}
+        )
+        init_state["emotion"] = emotion.to_dict()
 
     return {
         "id": f"agent_{uuid.uuid4().hex}",
@@ -252,9 +266,22 @@ def _bootstrap_personas(n: int, constraints: Dict[str, Any], env_spec: Dict[str,
             "education": random.choice(EDU_OPTIONS[1:]),
             "description": f"{role}; ordinary resident; cooperative.",
             "initial_memory": ["Follows rules", "Seeks social acceptance", "Watches authority signals"],
-            "initial_state": {"location": random.choice(locs) if locs else "Start", "mood": random.choice(["calm","neutral","curious"])},
+            "initial_state": _generate_initial_state_with_emotion(random.choice(locs) if locs else "Start", random.choice(["calm","neutral","curious"]), f"{role}; ordinary resident; cooperative."),
         })
     return res
+
+def _generate_initial_state_with_emotion(location: str, mood: str, personality: str) -> Dict[str, Any]:
+    """生成包含情绪画像的初始状态"""
+    emotion = EmotionGenerator.generate_from_context(
+        f"Initial mood: {mood}, Personality: {personality}",
+        {"description": personality}
+    )
+    
+    return {
+        "location": location,
+        "mood": mood,
+        "emotion": emotion.to_dict()
+    }
 
 def _infer_locations_from_env(env_spec: Dict[str, Any]) -> List[str]:
     txt = (env_spec.get("prompt") or "") + " " + " ".join(env_spec.get("rules") or [])

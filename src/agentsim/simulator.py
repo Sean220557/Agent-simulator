@@ -3,7 +3,7 @@ import json
 from typing import Dict, List, Any
 
 from .llm import chat_json
-from .models import AgentPersona, EnvSpec, SimulationConfig, AgentTickOutput
+from .models import AgentPersona, EnvSpec, SimulationConfig, AgentTickOutput, extract_emotion_from_state, ensure_emotion_in_state
 from .logger import append_agent_log, append_event_log
 from .world import group_by_location, make_local_context
 from .interaction import simulate_group_interaction
@@ -13,6 +13,7 @@ from .relations import (
     pick_speakers_hard,
     pair_trust_weight,
 )
+from .emotion_model import EmotionGenerator, EmotionProfile
 
 AGENT_SYS_TEMPLATE = """You are simulating ONE specific agent inside a shared world.
 ALL OUTPUT MUST BE IN ENGLISH ONLY.
@@ -97,15 +98,43 @@ async def simulate_step_for_agent(
         max_tokens=config.max_tokens,
     )
 
+    # 生成情绪状态
+    current_emotion = None
+    if prev_items:
+        # 基于上一个tick的情绪和当前上下文生成新情绪
+        last_emotion = extract_emotion_from_state(prev_items[-1].state)
+        if last_emotion:
+            # 构建上下文信息用于情绪演化
+            context_info = f"Location: {last_location}, Action: {data.get('action', '')}, Speech: {data.get('speech', '')}, Thoughts: {data.get('thoughts', '')}"
+            current_emotion = EmotionGenerator.evolve_emotion(
+                last_emotion, 
+                context_info, 
+                {"description": agent.description}
+            )
+    
+    if current_emotion is None:
+        # 生成初始情绪
+        context_info = f"Environment: {env.title}, Location: {last_location}, Action: {data.get('action', '')}"
+        current_emotion = EmotionGenerator.generate_from_context(
+            context_info, 
+            {"description": agent.description}
+        )
+
+    # 确保状态包含情绪信息
+    new_state = data.get("state") or {}
+    new_state = ensure_emotion_in_state(new_state, {"description": agent.description})
+    new_state["emotion"] = current_emotion.to_dict()
+
     out = AgentTickOutput(
         agent_id=agent.id,
         tick=tick,
         action=str(data.get("action", "")).strip(),
         speech=str(data.get("speech", "")).strip(),
-        state=data.get("state") or {},
+        state=new_state,
         thoughts=str(data.get("thoughts", "")).strip(),
         location=str(data.get("location", "") or last_location),
         memory=list(data.get("memory") or []),
+        emotion=current_emotion,
     )
 
     append_agent_log(agent.name, {
@@ -118,6 +147,7 @@ async def simulate_step_for_agent(
         "thoughts": out.thoughts,
         "state": out.state,
         "memory": out.memory,
+        "emotion": current_emotion.to_dict(),
     })
     return out
 
@@ -193,6 +223,14 @@ async def run_tick_with_interactions(
             new_mem = item.get("memory") or []
             if new_mem:
                 base.memory.extend(list(new_mem))
+            
+            # 更新情绪状态（如果群体交互影响了情绪）
+            if "emotion" in item:
+                try:
+                    base.emotion = EmotionProfile.from_dict(item["emotion"])
+                    base.state["emotion"] = base.emotion.to_dict()
+                except Exception:
+                    pass
 
             append_agent_log(aid, {
                 "type": "tick.final",
@@ -203,6 +241,7 @@ async def run_tick_with_interactions(
                 "state": base.state,
                 "thoughts": base.thoughts,
                 "memory": base.memory,
+                "emotion": base.emotion.to_dict() if base.emotion else None,
             })
 
     return list(final_outputs.values())

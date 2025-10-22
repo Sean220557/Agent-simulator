@@ -1,5 +1,6 @@
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel, Field, validator
+from .emotion_model import EmotionProfile
 
 
 class AgentPersona(BaseModel):
@@ -48,6 +49,8 @@ class AgentTickOutput(BaseModel):
     thoughts: str
     location: str
     memory: List[str] = Field(default_factory=list, description="本 tick 的记忆（新增或强化点）")
+    emotion: Optional[EmotionProfile] = Field(default=None, description="情绪画像（包含多个维度的数值化情绪状态，支持负值和复合情绪）")
+    emotional_interactions: List[Dict[str, Any]] = Field(default_factory=list, description="本 tick 的情感互动记录")
 
 
 class SimulationConfig(BaseModel):
@@ -96,3 +99,38 @@ class SimulationInput(BaseModel):
         if not v and not values.get("env_hint"):
             raise ValueError("必须提供 env_spec 或 env_hint")
         return v
+
+
+def extract_emotion_from_state(state: Dict[str, Any]) -> Optional[EmotionProfile]:
+    """从agent状态中提取情绪信息，支持传统mood字符串和新的情绪画像"""
+    from .emotion_model import parse_legacy_mood
+    
+    # 检查是否有新的情绪画像
+    if "emotion" in state and isinstance(state["emotion"], dict):
+        try:
+            return EmotionProfile.from_dict(state["emotion"])
+        except Exception:
+            pass
+    
+    # 检查是否有传统mood字符串
+    if "mood" in state and isinstance(state["mood"], str):
+        return parse_legacy_mood(state["mood"])
+    
+    return None
+
+
+def ensure_emotion_in_state(state: Dict[str, Any], personality: Dict[str, Any] = None) -> Dict[str, Any]:
+    """确保状态中包含情绪信息，如果没有则生成默认情绪"""
+    from .emotion_model import EmotionGenerator, parse_legacy_mood
+    
+    if "emotion" not in state or not isinstance(state.get("emotion"), dict):
+        # 尝试从mood生成情绪
+        if "mood" in state and isinstance(state["mood"], str):
+            emotion = parse_legacy_mood(state["mood"])
+        else:
+            # 生成默认情绪
+            emotion = EmotionGenerator.generate_from_template("neutral")
+        
+        state["emotion"] = emotion.to_dict()
+    
+    return state
