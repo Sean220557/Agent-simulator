@@ -1,0 +1,82 @@
+{
+  "agent_926d84aabbad4b29a82d9af9b7166cdc": {
+    "agent_663f1fad7c944def85b8953c194bdf8b": {
+      "type": "coworker",
+      "strength": 0.68
+    }
+  },
+  "agent_4ba8e091fb8c42fe9677672153b09756": {
+    "agent_7e94c59f6a28499e9670727bb0b882b9": {
+      "type": "coworker",
+      "strength": 0.72
+    },
+    "agent_0f211bb171fb451da9d615a3f60a9dc3": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_f4b132f43f2c417a8069dfce80572b15": {
+      "type": "coworker",
+      "strength": 0.69
+    }
+  },
+  "agent_db1959edd35f4cbd9e13ee030a49e4cc": {
+    "agent_f4b132f43f2c417a8069dfce80572b15": {
+      "type": "coworker",
+      "strength": 0.6
+    }
+  },
+  "agent_7e94c59f6a28499e9670727bb0b882b9": {
+    "agent_4ba8e091fb8c42fe9677672153b09756": {
+      "type": "coworker",
+      "strength": 0.72
+    }
+  },
+  "agent_663f1fad7c944def85b8953c194bdf8b": {
+    "agent_926d84aabbad4b29a82d9af9b7166cdc": {
+      "type": "coworker",
+      "strength": 0.68
+    },
+    "agent_0f211bb171fb451da9d615a3f60a9dc3": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_d352f9978a1c40c48727d9ab7c9a4bee": {
+      "type": "coworker",
+      "strength": 0.61
+    }
+  },
+  "agent_0f211bb171fb451da9d615a3f60a9dc3": {
+    "agent_4ba8e091fb8c42fe9677672153b09756": {
+      "type": "coworker",
+      "strength": 0.67
+    },
+    "agent_663f1fad7c944def85b8953c194bdf8b": {
+      "type": "coworker",
+      "strength": 0.67
+    }
+  },
+  "agent_f4b132f43f2c417a8069dfce80572b15": {
+    "agent_4ba8e091fb8c42fe9677672153b09756": {
+      "type": "coworker",
+      "strength": 0.69
+    },
+    "agent_db1959edd35f4cbd9e13ee030a49e4cc": {
+      "type": "coworker",
+      "strength": 0.6
+    },
+    "agent_d352f9978a1c40c48727d9ab7c9a4bee": {
+      "type": "coworker",
+      "strength": 0.66
+    }
+  },
+  "agent_d352f9978a1c40c48727d9ab7c9a4bee": {
+    "agent_663f1fad7c944def85b8953c194bdf8b": {
+      "type": "coworker",
+      "strength": 0.61
+    },
+    "agent_f4b132f43f2c417a8069dfce80572b15": {
+      "type": "coworker",
+      "strength": 0.66
+    }
+  }
+}

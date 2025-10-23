@@ -6,21 +6,93 @@ from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_excep
 
 from openai import AsyncOpenAI
 from openai.types.chat import ChatCompletionMessageParam
+import google.generativeai as genai
 
 load_dotenv()
 
-API_KEY = os.getenv("DEEPSEEK_API_KEY")
-BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
-MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "deepseek").lower()
 
-if not API_KEY:
-    raise RuntimeError("DEEPSEEK_API_KEY 未设置。请在 .env 中填写你的 Key。")
+aclient = None
+gemini_model = None
 
-aclient = AsyncOpenAI(api_key=API_KEY, base_url=BASE_URL)
+if LLM_PROVIDER == "deepseek":
+    API_KEY = os.getenv("DEEPSEEK_API_KEY")
+    BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+    MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+    if not API_KEY:
+        raise RuntimeError("LLM_PROVIDER=deepseek, 但 DEEPSEEK_API_KEY 未设置。")
+    aclient = AsyncOpenAI(api_key=API_KEY, base_url=BASE_URL)
+    print("--- LLM Provider: DeepSeek ---")
+
+elif LLM_PROVIDER == "gemini":
+    API_KEY = os.getenv("GEMINI_API_KEY")
+    MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    if not API_KEY:
+        raise RuntimeError("LLM_PROVIDER=gemini, 但 GEMINI_API_KEY 未设置。")
+    genai.configure(api_key=API_KEY)
+    # Gemini 安全设置，防止因内容审查而中断
+    safety_settings = [
+        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+    ]
+    gemini_model = genai.GenerativeModel(MODEL, safety_settings=safety_settings)
+    print("--- LLM Provider: Gemini ---")
+
+else:
+    raise RuntimeError(f"不支持的 LLM_PROVIDER: {LLM_PROVIDER}")
+
 
 
 class LLMError(Exception):
     pass
+
+async def _call_llm(
+    messages: List[ChatCompletionMessageParam],
+    temperature: float,
+    max_tokens: Optional[int],
+) -> str:
+    """
+    根据全局配置调用相应的 LLM 服务并返回文本响应。
+    """
+    if LLM_PROVIDER == "deepseek":
+        if not aclient:
+            raise RuntimeError("DeepSeek 客户端未初始化。")
+        resp = await aclient.chat.completions.create(
+            model=MODEL,
+            messages=messages,
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+        return (resp.choices[0].message.content or "").strip()
+
+    elif LLM_PROVIDER == "gemini":
+        if not gemini_model:
+            raise RuntimeError("Gemini 模型未初始化。")
+        
+        # Gemini 的消息格式与 OpenAI 不同，需要转换
+        gemini_messages = []
+        for msg in messages:
+            # 忽略 system message，将其内容合并到第一个 user message 中
+            if msg["role"] == "system":
+                continue
+            role = "user" if msg["role"] == "user" else "model"
+            if gemini_messages and gemini_messages[-1]["role"] == role:
+                gemini_messages[-1]["parts"].append(msg["content"])
+            else:
+                gemini_messages.append({"role": role, "parts": [msg["content"]]})
+        
+        # 将 system prompt 的内容加到第一个 user prompt 前面
+        system_prompt = next((m['content'] for m in messages if m['role'] == 'system'), None)
+        if system_prompt and gemini_messages:
+            gemini_messages[0]['parts'].insert(0, f"{system_prompt}\n\n---\n\n")
+
+        resp = await gemini_model.generate_content_async(gemini_messages)
+        return resp.text.strip()
+    
+    else:
+        raise RuntimeError(f"LLM_PROVIDER 配置错误: {LLM_PROVIDER}")
 
 
 @retry(
@@ -44,16 +116,10 @@ async def chat_json(
     msgs.extend(messages)
 
     try:
-        resp = await aclient.chat.completions.create(
-            model=MODEL,
-            messages=msgs,
-            temperature=temperature,
-            max_tokens=max_tokens,
-        )
+        content = await _call_llm(msgs, temperature, max_tokens)
     except Exception as e:
         raise LLMError(str(e))
 
-    content = (resp.choices[0].message.content or "").strip()
     # 直接尝试 JSON 解析
     try:
         return json.loads(content)
@@ -70,12 +136,7 @@ async def chat_json(
             },
         ]
         try:
-            resp2 = await aclient.chat.completions.create(
-                model=MODEL,
-                messages=fix_msgs,
-                temperature=0.0,
-                max_tokens=max_tokens,
-            )
-            return json.loads((resp2.choices[0].message.content or "").strip())
+            content2 = await _call_llm(fix_msgs, 0.0, max_tokens)
+            return json.loads(content2)
         except Exception as e:
             raise LLMError(f"JSON 解析失败：{e}")

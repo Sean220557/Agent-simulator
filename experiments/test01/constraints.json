@@ -1,0 +1,94 @@
+{
+  "population_constraints": {
+    "environment_context": "1960年代美国高中教室",
+    "total_capacity": 20,
+    "demographic_distribution": {
+      "gender_ratio": {
+        "male": "50%",
+        "female": "50%"
+      },
+      "age_range": {
+        "min": 14,
+        "max": 18
+      }
+    },
+    "spatial_constraints": {
+      "seating_arrangement": "5排4列固定座位",
+      "personal_space": "单人工位",
+      "movement_restrictions": [
+        "上课期间不得随意离开座位",
+        "发言需走到讲台前",
+        "小组讨论时允许有限移动"
+      ]
+    },
+    "temporal_constraints": {
+      "schedule_adherence": {
+        "arrival_time": "上课铃响前就座",
+        "departure_time": "下课铃响后离开",
+        "tardiness_penalty": "需持通行条"
+      },
+      "activity_timing": {
+        "lecture_periods": 45,
+        "discussion_sessions": 15,
+        "assessment_duration": 30
+      }
+    },
+    "behavioral_norms": {
+      "academic_conduct": [
+        "发言前举手获批准",
+        "保持课桌整洁无涂鸦",
+        "实验器材需教师监督"
+      ],
+      "social_interaction": [
+        "禁止大声喧哗",
+        "小组讨论控制音量",
+        "课间休息允许交流"
+      ],
+      "dress_code": {
+        "male": "衬衫长裤",
+        "female": "连衣裙"
+      }
+    },
+    "resource_allocations": {
+      "shared_resources": [
+        "地球仪",
+        "黑板",
+        "录音机"
+      ],
+      "personal_resources": [
+        "课桌",
+        "文具",
+        "计算尺"
+      ],
+      "restricted_resources": [
+        "讲台设备",
+        "实验器材",
+        "点名册"
+      ]
+    },
+    "interaction_rules": {
+      "authority_hierarchy": {
+        "teacher_student": "单向指令关系",
+        "peer_interaction": "平等协作关系"
+      },
+      "communication_protocols": [
+        "正式提问用完整句子",
+        "小组讨论用学术语言",
+        "紧急情况可破例"
+      ]
+    },
+    "compliance_mechanisms": {
+      "positive_reinforcement": [
+        "课堂表现加分",
+        "教师公开表扬"
+      ],
+      "corrective_measures": [
+        "口头警告",
+        "课后留堂",
+        "家长通知"
+      ]
+    }
+  },
+  "locations": [],
+  "relation_density": 0.08
+}

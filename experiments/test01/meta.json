@@ -1,0 +1,12 @@
+{
+  "name": "test01",
+  "slug": "test01",
+  "relation_influence": 0.8,
+  "count": 8,
+  "paths": {
+    "agents": "experiments\\test01\\agents.json",
+    "env": "experiments\\test01\\env.json",
+    "relations": "experiments\\test01\\relations.json",
+    "logs_base": "experiments\\test01\\logs"
+  }
+}
