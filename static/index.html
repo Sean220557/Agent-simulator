@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentSociety - 多智能体社会模拟平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 1200px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #f56565 0%, #c53030 100%);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+        }
+
+        .btn-small {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+
+        .experiment-list {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .experiment-item {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s, transform 0.2s;
+            cursor: pointer;
+        }
+
+        .experiment-item:hover {
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .experiment-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .experiment-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-success {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .badge-info {
+            background: #bee3f8;
+            color: #2c5282;
+        }
+
+        .badge-warning {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .empty-state svg {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message-success {
+            background: #c6f6d5;
+            color: #22543d;
+            border: 1px solid #9ae6b4;
+        }
+
+        .message-error {
+            background: #fed7d7;
+            color: #742a2a;
+            border: 1px solid #fc8181;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .help-text {
+            font-size: 13px;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        .advanced-options {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 6px;
+        }
+
+        .advanced-toggle {
+            color: #667eea;
+            cursor: pointer;
+            font-size: 14px;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .advanced-toggle:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AgentSociety</h1>
+            <p class="subtitle">多智能体社会模拟平台 - 在数字世界中探索社会动力学</p>
+        </header>
+
+        <div class="main-content">
+            <!-- 左侧：创建新实验 -->
+            <div class="card">
+                <h2>创建新实验</h2>
+                <div id="createMessage"></div>
+                <form id="createExperimentForm">
+                    <div class="form-group">
+                        <label for="expName">实验名称 *</label>
+                        <input type="text" id="expName" name="name" required placeholder="例如：第三浪潮实验">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="envHint">环境描述 *</label>
+                        <textarea id="envHint" name="env_hint" required placeholder="描述实验环境，例如：1960年代美国高中课堂，老师计划进行一个关于纪律和权威的社会实验..."></textarea>
+                        <div class="help-text">AI将根据此描述生成详细的环境设定</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="agentCount">智能体数量 *</label>
+                        <input type="number" id="agentCount" name="count" min="2" max="100" value="10" required>
+                        <div class="help-text">建议：10-30个智能体以保持良好性能</div>
+                    </div>
+
+                    <div>
+                        <span class="advanced-toggle" onclick="toggleAdvanced()">⚙️ 高级选项</span>
+                        <div id="advancedOptions" class="advanced-options" style="display:none;">
+                            <div class="form-group">
+                                <label for="relationInfluence">关系影响力 (0.0-1.0)</label>
+                                <input type="number" id="relationInfluence" name="relation_influence" min="0" max="1" step="0.1" value="0.8">
+                                <div class="help-text">控制社会关系对交互的影响程度</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="constraintsJson">约束条件 (JSON格式，可选)</label>
+                                <textarea id="constraintsJson" name="constraints_json" placeholder='{"occupations": ["teacher", "student"], "relation_density": 0.08}'></textarea>
+                                <div class="help-text">留空则自动生成</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn" id="createBtn">
+                        <span id="createBtnText">创建实验</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- 右侧：实验列表 -->
+            <div class="card">
+                <h2>实验列表</h2>
+                <div id="experimentList">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>加载中...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+
+        // 切换高级选项
+        function toggleAdvanced() {
+            const options = document.getElementById('advancedOptions');
+            options.style.display = options.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // 显示消息
+        function showMessage(elementId, message, type = 'success') {
+            const container = document.getElementById(elementId);
+            container.innerHTML = `<div class="message message-${type}">${message}</div>`;
+            setTimeout(() => {
+                container.innerHTML = '';
+            }, 5000);
+        }
+
+        // 加载实验列表
+        async function loadExperiments() {
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments`);
+                const experiments = await response.json();
+                
+                const listContainer = document.getElementById('experimentList');
+                
+                if (experiments.length === 0) {
+                    listContainer.innerHTML = `
+                        <div class="empty-state">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                            <h3>还没有实验</h3>
+                            <p>创建你的第一个实验开始探索吧！</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '<div class="experiment-list">';
+                for (const exp of experiments) {
+                    const date = new Date(exp.created_at).toLocaleString('zh-CN');
+                    html += `
+                        <div class="experiment-item" onclick="viewExperiment('${exp.slug}')">
+                            <h3>${exp.name}</h3>
+                            <div class="experiment-meta">
+                                <div class="meta-item">
+                                    <span>👥</span>
+                                    <span>${exp.agent_count} 个智能体</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span>📅</span>
+                                    <span>${date}</span>
+                                </div>
+                                <div class="meta-item">
+                                    ${exp.has_logs ? '<span class="badge badge-success">有日志</span>' : '<span class="badge badge-warning">未运行</span>'}
+                                </div>
+                            </div>
+                            <div class="button-group">
+                                <button class="btn btn-small btn-success" onclick="event.stopPropagation(); viewExperiment('${exp.slug}')">查看详情</button>
+                                <button class="btn btn-small btn-danger" onclick="event.stopPropagation(); deleteExperiment('${exp.slug}', '${exp.name}')">删除</button>
+                            </div>
+                        </div>
+                    `;
+                }
+                html += '</div>';
+                listContainer.innerHTML = html;
+            } catch (error) {
+                document.getElementById('experimentList').innerHTML = `
+                    <div class="message message-error">加载失败：${error.message}</div>
+                `;
+            }
+        }
+
+        // 创建实验
+        document.getElementById('createExperimentForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const btn = document.getElementById('createBtn');
+            const btnText = document.getElementById('createBtnText');
+            const originalText = btnText.textContent;
+            
+            btn.disabled = true;
+            btnText.textContent = '创建中...';
+            
+            const formData = new FormData(e.target);
+            const data = {
+                name: formData.get('name'),
+                env_hint: formData.get('env_hint'),
+                count: parseInt(formData.get('count')),
+                relation_influence: parseFloat(formData.get('relation_influence') || '0.8'),
+            };
+
+            const constraints = formData.get('constraints_json');
+            if (constraints && constraints.trim()) {
+                data.constraints_json = constraints;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    showMessage('createMessage', '✅ ' + result.message, 'success');
+                    e.target.reset();
+                    loadExperiments();
+                } else {
+                    showMessage('createMessage', '❌ ' + result.detail, 'error');
+                }
+            } catch (error) {
+                showMessage('createMessage', '❌ 创建失败：' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btnText.textContent = originalText;
+            }
+        });
+
+        // 查看实验详情
+        function viewExperiment(slug) {
+            window.location.href = `/ui/experiment.html?slug=${slug}`;
+        }
+
+        // 删除实验
+        async function deleteExperiment(slug, name) {
+            if (!confirm(`确定要删除实验"${name}"吗？此操作不可恢复！`)) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${slug}`, {
+                    method: 'DELETE'
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    alert('✅ 实验已删除');
+                    loadExperiments();
+                } else {
+                    alert('❌ 删除失败：' + result.detail);
+                }
+            } catch (error) {
+                alert('❌ 删除失败：' + error.message);
+            }
+        }
+
+        // 页面加载时获取实验列表
+        loadExperiments();
+        
+        // 每30秒自动刷新
+        setInterval(loadExperiments, 30000);
+    </script>
+</body>
+</html>
+

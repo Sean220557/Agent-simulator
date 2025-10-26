@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实验详情 - AgentSociety</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .back-button {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 6px;
+            margin-bottom: 20px;
+            transition: background 0.3s;
+        }
+
+        .back-button:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        header {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .tab:hover {
+            border-color: #667eea;
+        }
+
+        .tab.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .info-item {
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 6px;
+        }
+
+        .info-label {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            font-size: 16px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        .btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #f56565 0%, #c53030 100%);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+        }
+
+        .agent-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .agent-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            transition: border-color 0.3s;
+        }
+
+        .agent-card:hover {
+            border-color: #667eea;
+        }
+
+        .agent-name {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .agent-info {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .simulation-control {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .status-badge {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .status-running {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .status-stopped {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        .log-viewer {
+            background: #1a202c;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 600px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .log-entry {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 4px;
+            border-left: 3px solid #667eea;
+        }
+
+        .log-time {
+            color: #a0aec0;
+            font-size: 12px;
+        }
+
+        .log-agent {
+            color: #48bb78;
+            font-weight: 600;
+        }
+
+        .log-action {
+            color: #f6e05e;
+        }
+
+        .log-speech {
+            color: #63b3ed;
+            font-style: italic;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        input[type="number"] {
+            padding: 8px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .rules-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .rules-list li {
+            padding: 10px;
+            background: #f7fafc;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            border-left: 3px solid #667eea;
+        }
+
+        .relation-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 20px;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        pre {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 13px;
+        }
+
+        .relation-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .relation-type {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        .relation-type-family { background: #fbb6ce; color: #702459; }
+        .relation-type-friend { background: #c6f6d5; color: #22543d; }
+        .relation-type-coworker { background: #bee3f8; color: #2c5282; }
+        .relation-type-neighbor { background: #feebc8; color: #7c2d12; }
+        .relation-type-acquaintance { background: #e2e8f0; color: #2d3748; }
+
+        .strength-bar {
+            width: 150px;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .strength-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #48bb78, #38a169);
+            transition: width 0.3s;
+        }
+
+        .emotion-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, border-color 0.3s;
+        }
+
+        .emotion-card:hover {
+            transform: translateY(-2px);
+            border-color: #667eea;
+        }
+
+        .emotion-icon {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .emotion-label {
+            font-weight: 600;
+            font-size: 1.1em;
+            text-align: center;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .emotion-details {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .emotion-value {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+
+        .emotion-bar {
+            width: 100%;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 3px;
+        }
+
+        .emotion-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.3s;
+        }
+
+        .graph-node {
+            display: inline-block;
+            padding: 8px 12px;
+            background: #667eea;
+            color: white;
+            border-radius: 6px;
+            margin: 5px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .graph-edge {
+            color: #999;
+            font-size: 11px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/ui" class="back-button">← 返回实验列表</a>
+
+        <header id="header">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>加载中...</p>
+            </div>
+        </header>
+
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('overview')">📊 概览</div>
+            <div class="tab" onclick="switchTab('agents')">👥 智能体</div>
+            <div class="tab" onclick="switchTab('relations')">🔗 关系网络</div>
+            <div class="tab" onclick="switchTab('emotions')">😊 心情监控</div>
+            <div class="tab" onclick="switchTab('simulation')">▶️ 运行模拟</div>
+            <div class="tab" onclick="switchTab('logs')">📝 日志</div>
+            <div class="tab" onclick="switchTab('data')">💾 原始数据</div>
+        </div>
+
+        <!-- 概览标签 -->
+        <div id="tab-overview" class="tab-content active">
+            <div class="card">
+                <h2>实验信息</h2>
+                <div id="experimentInfo" class="info-grid"></div>
+            </div>
+
+            <div class="card">
+                <h2>环境描述</h2>
+                <div id="environmentInfo"></div>
+            </div>
+
+            <div class="card">
+                <h2>社会关系网络</h2>
+                <div id="relationStats"></div>
+            </div>
+        </div>
+
+        <!-- 智能体标签 -->
+        <div id="tab-agents" class="tab-content">
+            <div class="card">
+                <h2>智能体列表</h2>
+                <div id="agentsList" class="agent-grid"></div>
+            </div>
+        </div>
+
+        <!-- 关系网络标签 -->
+        <div id="tab-relations" class="tab-content">
+            <div class="card">
+                <h2>社会关系网络</h2>
+                <div style="margin-bottom: 20px;">
+                    <label>选择智能体查看其关系：</label>
+                    <select id="relationAgentSelect" onchange="showAgentRelations()" style="padding: 8px; border-radius: 6px; border: 2px solid #e0e0e0; font-size: 14px; width: 300px;">
+                        <option value="">-- 选择智能体 --</option>
+                    </select>
+                </div>
+                <div id="relationViewer"></div>
+            </div>
+            <div class="card">
+                <h2>关系网络图谱</h2>
+                <p style="color: #666; margin-bottom: 15px;">下方显示所有智能体之间的关系连接</p>
+                <div id="relationGraph" style="min-height: 400px; background: #f7fafc; border-radius: 8px; padding: 20px;"></div>
+            </div>
+        </div>
+
+        <!-- 心情监控标签 -->
+        <div id="tab-emotions" class="tab-content">
+            <div class="card">
+                <h2>实时心情监控</h2>
+                <button class="btn" onclick="loadEmotions()">刷新心情状态</button>
+                <div id="emotionsGrid" class="agent-grid" style="margin-top: 20px;"></div>
+            </div>
+        </div>
+
+        <!-- 模拟控制标签 -->
+        <div id="tab-simulation" class="tab-content">
+            <div class="card">
+                <h2>模拟控制</h2>
+                <div class="simulation-control">
+                    <span id="simulationStatus" class="status-badge status-stopped">未运行</span>
+                    <div class="form-group" style="display:inline-block;">
+                        <label>Tick间隔 (秒):</label>
+                        <input type="number" id="intervalInput" value="10" min="1" max="300">
+                    </div>
+                    <div class="form-group" style="display:inline-block;">
+                        <label>最大Ticks (可选):</label>
+                        <input type="number" id="maxTicksInput" placeholder="不限制" min="1">
+                    </div>
+                    <button id="startBtn" class="btn btn-success" onclick="startSimulation()">启动模拟</button>
+                    <button id="stopBtn" class="btn btn-danger" onclick="stopSimulation()" style="display:none;">停止模拟</button>
+                </div>
+                <div style="margin-top: 20px;">
+                    <p style="color: #666; line-height: 1.6;">
+                        💡 提示：<br>
+                        - 模拟将在后台持续运行，每个tick智能体会更新状态<br>
+                        - 可以在"日志"标签中查看实时运行情况<br>
+                        - 建议先设置较小的tick数（如10-20）进行测试<br>
+                        - 运行过程中可以随时停止
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 日志标签 -->
+        <div id="tab-logs" class="tab-content">
+            <div class="card">
+                <h2>最新日志</h2>
+                <button class="btn" onclick="loadLogs()">刷新日志</button>
+                <div id="logsViewer" class="log-viewer" style="margin-top: 15px;">
+                    <div class="loading">加载日志中...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 原始数据标签 -->
+        <div id="tab-data" class="tab-content">
+            <div class="card">
+                <h2>Agents数据</h2>
+                <pre id="agentsData"></pre>
+            </div>
+            <div class="card">
+                <h2>环境数据</h2>
+                <pre id="envData"></pre>
+            </div>
+            <div class="card">
+                <h2>约束条件</h2>
+                <pre id="constraintsData"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+        const urlParams = new URLSearchParams(window.location.search);
+        const experimentSlug = urlParams.get('slug');
+
+        let experimentData = null;
+        let statusCheckInterval = null;
+
+        // 切换标签
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById('tab-' + tabName).classList.add('active');
+
+            if (tabName === 'logs') {
+                loadLogs();
+            } else if (tabName === 'relations') {
+                renderRelations();
+            } else if (tabName === 'emotions') {
+                loadEmotions();
+            }
+        }
+
+        // 加载实验数据
+        async function loadExperiment() {
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${experimentSlug}`);
+                if (!response.ok) {
+                    throw new Error('实验不存在');
+                }
+                
+                experimentData = await response.json();
+                renderExperiment();
+                checkSimulationStatus();
+                
+                // 启动状态检查
+                if (statusCheckInterval) {
+                    clearInterval(statusCheckInterval);
+                }
+                statusCheckInterval = setInterval(checkSimulationStatus, 5000);
+            } catch (error) {
+                document.getElementById('header').innerHTML = `
+                    <h1>❌ 加载失败</h1>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+
+        // 渲染实验数据
+        function renderExperiment() {
+            const meta = experimentData.meta || {};
+            const env = experimentData.environment || {};
+            const agents = experimentData.agents || [];
+            const relations = experimentData.relations || {};
+            const constraints = experimentData.constraints || {};
+
+            // 标题
+            document.getElementById('header').innerHTML = `
+                <h1>🧪 ${meta.name || experimentSlug}</h1>
+                <p style="color: #666; margin-top: 10px;">实验ID: ${meta.slug || experimentSlug}</p>
+            `;
+
+            // 实验信息
+            document.getElementById('experimentInfo').innerHTML = `
+                <div class="info-item">
+                    <div class="info-label">智能体数量</div>
+                    <div class="info-value">${agents.length || meta.count || 0}</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">关系影响力</div>
+                    <div class="info-value">${meta.relation_influence || 0.8}</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">环境</div>
+                    <div class="info-value">${env.title || '未知'}</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">状态</div>
+                    <div class="info-value">${experimentData.simulation_running ? '🟢 运行中' : '⚪ 未运行'}</div>
+                </div>
+            `;
+
+            // 环境信息
+            document.getElementById('environmentInfo').innerHTML = `
+                <p style="margin-bottom: 15px;"><strong>标题：</strong>${env.title || '未知'}</p>
+                <p style="margin-bottom: 15px;"><strong>描述：</strong>${env.prompt || '无'}</p>
+                <p style="margin-bottom: 10px;"><strong>规则：</strong></p>
+                <ul class="rules-list">
+                    ${(env.rules || []).map(rule => `<li>${rule}</li>`).join('') || '<li>无规则</li>'}
+                </ul>
+            `;
+
+            // 关系统计
+            const relationCount = Object.values(relations).reduce((sum, r) => sum + Object.keys(r).length, 0) / 2;
+            const relationTypes = {};
+            Object.values(relations).forEach(agentRelations => {
+                Object.values(agentRelations).forEach(rel => {
+                    relationTypes[rel.type] = (relationTypes[rel.type] || 0) + 1;
+                });
+            });
+
+            document.getElementById('relationStats').innerHTML = `
+                <div class="relation-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">${relationCount}</div>
+                        <div class="stat-label">总关系数</div>
+                    </div>
+                    ${Object.entries(relationTypes).map(([type, count]) => `
+                        <div class="stat-box">
+                            <div class="stat-number">${Math.round(count/2)}</div>
+                            <div class="stat-label">${type}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            // 智能体列表
+            document.getElementById('agentsList').innerHTML = agents.map(agent => `
+                <div class="agent-card">
+                    <div class="agent-name">${agent.name}</div>
+                    <div class="agent-info">
+                        <div><strong>ID:</strong> ${agent.id}</div>
+                        <div><strong>年龄:</strong> ${agent.age} | <strong>性别:</strong> ${agent.gender}</div>
+                        <div><strong>职业:</strong> ${agent.occupation}</div>
+                        <div><strong>描述:</strong> ${agent.description}</div>
+                        <div style="margin-top: 8px;"><strong>初始位置:</strong> ${agent.initial_state?.location || '未知'}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            // 原始数据
+            document.getElementById('agentsData').textContent = JSON.stringify(agents, null, 2);
+            document.getElementById('envData').textContent = JSON.stringify(env, null, 2);
+            document.getElementById('constraintsData').textContent = JSON.stringify(constraints, null, 2);
+        }
+
+        // 检查模拟状态
+        async function checkSimulationStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${experimentSlug}/status`);
+                const status = await response.json();
+                
+                const statusEl = document.getElementById('simulationStatus');
+                const startBtn = document.getElementById('startBtn');
+                const stopBtn = document.getElementById('stopBtn');
+                
+                if (status.running) {
+                    statusEl.textContent = `运行中 (Tick: ${status.current_tick})`;
+                    statusEl.className = 'status-badge status-running';
+                    startBtn.style.display = 'none';
+                    stopBtn.style.display = 'inline-block';
+                } else {
+                    statusEl.textContent = status.message || '未运行';
+                    statusEl.className = 'status-badge status-stopped';
+                    startBtn.style.display = 'inline-block';
+                    stopBtn.style.display = 'none';
+                }
+            } catch (error) {
+                console.error('检查状态失败:', error);
+            }
+        }
+
+        // 启动模拟
+        async function startSimulation() {
+            const interval = parseFloat(document.getElementById('intervalInput').value);
+            const maxTicks = document.getElementById('maxTicksInput').value;
+            
+            const data = {
+                temperature: 0.7,
+                max_tokens: 700,
+                interval: interval
+            };
+            
+            if (maxTicks) {
+                data.max_ticks = parseInt(maxTicks);
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${experimentSlug}/start`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    alert('✅ ' + result.message);
+                    setTimeout(checkSimulationStatus, 1000);
+                } else {
+                    alert('❌ ' + result.detail);
+                }
+            } catch (error) {
+                alert('❌ 启动失败：' + error.message);
+            }
+        }
+
+        // 停止模拟
+        async function stopSimulation() {
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${experimentSlug}/stop`, {
+                    method: 'POST'
+                });
+                
+                const result = await response.json();
+                alert('✅ ' + result.message);
+                setTimeout(checkSimulationStatus, 2000);
+            } catch (error) {
+                alert('❌ 停止失败：' + error.message);
+            }
+        }
+
+        // 加载日志
+        async function loadLogs() {
+            const viewer = document.getElementById('logsViewer');
+            viewer.innerHTML = '<div class="loading">加载日志中...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${experimentSlug}/logs?limit=50`);
+                const data = await response.json();
+                const logs = data.logs || [];
+                
+                if (logs.length === 0) {
+                    viewer.innerHTML = '<div style="text-align:center; padding:40px; color:#999;">还没有日志</div>';
+                    return;
+                }
+                
+                // 渲染日志
+                viewer.innerHTML = logs.map(log => {
+                    const type = log.type || '';
+                    let content = '';
+                    
+                    if (type === 'tick.final' || type === 'tick.intent') {
+                        // 获取emotion信息
+                        const emotion = log.emotion || log.state?.emotion;
+                        let emotionHtml = '';
+                        if (emotion) {
+                            const icon = getEmotionIcon(emotion);
+                            emotionHtml = `
+                                <div style="margin-top: 8px; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 4px;">
+                                    <span style="font-size: 1.5em;">${icon}</span>
+                                    <span style="color: #a0aec0;"> Emotion: 
+                                        V:${(emotion.valence || 0).toFixed(1)} 
+                                        A:${(emotion.arousal || 0).toFixed(1)} 
+                                        D:${(emotion.dominance || 0).toFixed(1)}
+                                    </span>
+                                </div>
+                            `;
+                        }
+                        
+                        content = `
+                            <div class="log-entry">
+                                <div class="log-time">Tick ${log.tick || 0}</div>
+                                <div class="log-agent">Agent: ${log.agent_id || 'unknown'}</div>
+                                <div>📍 Location: ${log.location || 'unknown'}</div>
+                                <div class="log-action">🎬 Action: ${log.action || 'none'}</div>
+                                ${log.speech ? `<div class="log-speech">💬 Speech: "${log.speech}"</div>` : ''}
+                                ${log.thoughts ? `<div style="color:#a0aec0;">💭 Thoughts: ${log.thoughts}</div>` : ''}
+                                ${emotionHtml}
+                            </div>
+                        `;
+                    } else {
+                        content = `
+                            <div class="log-entry">
+                                <div class="log-time">${type}</div>
+                                <pre style="margin-top:5px;">${JSON.stringify(log, null, 2)}</pre>
+                            </div>
+                        `;
+                    }
+                    
+                    return content;
+                }).reverse().join('');
+                
+            } catch (error) {
+                viewer.innerHTML = `<div style="color:#f56565;">加载日志失败：${error.message}</div>`;
+            }
+        }
+
+        // 页面加载
+        if (!experimentSlug) {
+            document.getElementById('header').innerHTML = `
+                <h1>❌ 错误</h1>
+                <p>未指定实验</p>
+            `;
+        } else {
+            loadExperiment();
+        }
+
+        // 渲染关系网络
+        function renderRelations() {
+            if (!experimentData || !experimentData.relations || !experimentData.agents) {
+                return;
+            }
+
+            const relations = experimentData.relations;
+            const agents = experimentData.agents;
+            const agentMap = {};
+            agents.forEach(a => agentMap[a.id] = a);
+
+            // 填充下拉选择框
+            const select = document.getElementById('relationAgentSelect');
+            select.innerHTML = '<option value="">-- 选择智能体 --</option>';
+            agents.forEach(agent => {
+                const option = document.createElement('option');
+                option.value = agent.id;
+                option.textContent = `${agent.name} (${agent.occupation})`;
+                select.appendChild(option);
+            });
+
+            // 显示关系图谱（简化文本版）
+            renderRelationGraph(relations, agentMap);
+        }
+
+        // 显示选中agent的关系
+        function showAgentRelations() {
+            const agentId = document.getElementById('relationAgentSelect').value;
+            if (!agentId || !experimentData) return;
+
+            const relations = experimentData.relations[agentId] || {};
+            const agentMap = {};
+            experimentData.agents.forEach(a => agentMap[a.id] = a);
+            const agent = agentMap[agentId];
+
+            let html = `<h3 style="margin-bottom: 15px;">${agent.name} 的社会关系 (${Object.keys(relations).length})</h3>`;
+
+            if (Object.keys(relations).length === 0) {
+                html += '<p style="color: #999; text-align: center; padding: 40px;">该智能体没有记录的社会关系</p>';
+            } else {
+                for (const [targetId, rel] of Object.entries(relations)) {
+                    const target = agentMap[targetId];
+                    if (!target) continue;
+
+                    html += `
+                        <div class="relation-card">
+                            <div style="flex: 1;">
+                                <strong>${target.name}</strong>
+                                <span class="relation-type relation-type-${rel.type}">${rel.type}</span>
+                                <div style="font-size: 13px; color: #666; margin-top: 5px;">
+                                    ${target.occupation} | ${target.age}岁
+                                </div>
+                            </div>
+                            <div>
+                                <div style="font-size: 13px; color: #666; margin-bottom: 5px;">
+                                    强度: ${rel.strength || 0}
+                                </div>
+                                <div class="strength-bar">
+                                    <div class="strength-fill" style="width: ${(rel.strength || 0) * 100}%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
+            document.getElementById('relationViewer').innerHTML = html;
+        }
+
+        // 渲染关系网络图谱（简化版）
+        function renderRelationGraph(relations, agentMap) {
+            const edges = [];
+            const nodeSet = new Set();
+
+            // 收集所有边
+            for (const [fromId, targets] of Object.entries(relations)) {
+                nodeSet.add(fromId);
+                for (const [toId, rel] of Object.entries(targets)) {
+                    nodeSet.add(toId);
+                    // 避免重复边（只记录一次）
+                    const edgeKey = [fromId, toId].sort().join('-');
+                    if (!edges.some(e => e.key === edgeKey)) {
+                        edges.push({
+                            key: edgeKey,
+                            from: fromId,
+                            to: toId,
+                            type: rel.type,
+                            strength: rel.strength
+                        });
+                    }
+                }
+            }
+
+            let html = '<div style="line-height: 2;">';
+            html += `<p style="margin-bottom: 20px;"><strong>节点数:</strong> ${nodeSet.size} | <strong>连接数:</strong> ${edges.length}</p>`;
+            
+            // 按关系类型分组显示
+            const typeGroups = {};
+            edges.forEach(edge => {
+                if (!typeGroups[edge.type]) typeGroups[edge.type] = [];
+                typeGroups[edge.type].push(edge);
+            });
+
+            for (const [type, edgeList] of Object.entries(typeGroups)) {
+                html += `<h4 style="margin-top: 20px; color: #667eea;">${type} (${edgeList.length})</h4>`;
+                html += '<div style="margin: 10px 0;">';
+                edgeList.slice(0, 20).forEach(edge => {
+                    const fromAgent = agentMap[edge.from];
+                    const toAgent = agentMap[edge.to];
+                    if (fromAgent && toAgent) {
+                        html += `
+                            <span class="graph-node">${fromAgent.name}</span>
+                            <span class="graph-edge">⟷ (${edge.strength})</span>
+                            <span class="graph-node">${toAgent.name}</span>
+                            <br>
+                        `;
+                    }
+                });
+                if (edgeList.length > 20) {
+                    html += `<p style="color: #999; margin-top: 10px;">... 还有 ${edgeList.length - 20} 个连接</p>`;
+                }
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            document.getElementById('relationGraph').innerHTML = html;
+        }
+
+        // 获取情绪图标
+        function getEmotionIcon(emotion) {
+            const valence = emotion.valence || 0;
+            const arousal = emotion.arousal || 0;
+            
+            if (valence > 0.5) {
+                if (arousal > 0.5) return '😄'; // 开心兴奋
+                else return '😌'; // 平静愉快
+            } else if (valence < -0.5) {
+                if (arousal > 0.5) return '😠'; // 愤怒焦虑
+                else return '😔'; // 悲伤沮丧
+            } else {
+                if (arousal > 0.5) return '😮'; // 惊讶
+                else return '😐'; // 中性平静
+            }
+        }
+
+        // 获取情绪颜色
+        function getEmotionColor(value) {
+            if (value > 0.5) return '#48bb78';
+            if (value < -0.5) return '#f56565';
+            return '#ed8936';
+        }
+
+        // 加载心情状态
+        async function loadEmotions() {
+            const grid = document.getElementById('emotionsGrid');
+            grid.innerHTML = '<div class="loading">加载中...</div>';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/experiments/${experimentSlug}/logs?limit=1`);
+                const data = await response.json();
+                const logs = data.logs || [];
+
+                if (logs.length === 0) {
+                    grid.innerHTML = '<div style="text-align:center; padding:40px; color:#999;">还没有心情数据<br>请先运行模拟</div>';
+                    return;
+                }
+
+                // 按agent组织最新的emotion数据
+                const agentEmotions = {};
+                logs.forEach(log => {
+                    const agentId = log.agent_id;
+                    if (agentId && log.type && log.type.includes('tick')) {
+                        const emotion = log.emotion || log.state?.emotion;
+                        if (emotion && !agentEmotions[agentId]) {
+                            agentEmotions[agentId] = {
+                                name: experimentData?.agents?.find(a => a.id === agentId)?.name || agentId,
+                                emotion: emotion,
+                                tick: log.tick || 0
+                            };
+                        }
+                    }
+                });
+
+                if (Object.keys(agentEmotions).length === 0) {
+                    grid.innerHTML = '<div style="text-align:center; padding:40px; color:#999;">暂无心情数据</div>';
+                    return;
+                }
+
+                let html = '';
+                for (const [agentId, data] of Object.entries(agentEmotions)) {
+                    const emotion = data.emotion;
+                    const icon = getEmotionIcon(emotion);
+                    
+                    html += `
+                        <div class="emotion-card">
+                            <div class="emotion-icon">${icon}</div>
+                            <div class="emotion-label">${data.name}</div>
+                            <div class="emotion-details">
+                                <div style="text-align: center; color: #999; font-size: 12px; margin-bottom: 10px;">
+                                    Tick ${data.tick}
+                                </div>
+                                <div class="emotion-value">
+                                    <span>愉悦度 (Valence):</span>
+                                    <strong>${(emotion.valence || 0).toFixed(2)}</strong>
+                                </div>
+                                <div class="emotion-bar">
+                                    <div class="emotion-bar-fill" style="width: ${((emotion.valence || 0) + 1) * 50}%; background: ${getEmotionColor(emotion.valence)}"></div>
+                                </div>
+                                
+                                <div class="emotion-value" style="margin-top: 8px;">
+                                    <span>激活度 (Arousal):</span>
+                                    <strong>${(emotion.arousal || 0).toFixed(2)}</strong>
+                                </div>
+                                <div class="emotion-bar">
+                                    <div class="emotion-bar-fill" style="width: ${((emotion.arousal || 0) + 1) * 50}%; background: ${getEmotionColor(emotion.arousal)}"></div>
+                                </div>
+                                
+                                <div class="emotion-value" style="margin-top: 8px;">
+                                    <span>主导度 (Dominance):</span>
+                                    <strong>${(emotion.dominance || 0).toFixed(2)}</strong>
+                                </div>
+                                <div class="emotion-bar">
+                                    <div class="emotion-bar-fill" style="width: ${((emotion.dominance || 0) + 1) * 50}%; background: ${getEmotionColor(emotion.dominance)}"></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                grid.innerHTML = html;
+            } catch (error) {
+                grid.innerHTML = `<div style="color:#f56565;">加载失败：${error.message}</div>`;
+            }
+        }
+
+        // 页面卸载时清理定时器
+        window.addEventListener('beforeunload', () => {
+            if (statusCheckInterval) {
+                clearInterval(statusCheckInterval);
+            }
+        });
+    </script>
+</body>
+</html>
+

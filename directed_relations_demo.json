@@ -1,0 +1,108 @@
+{
+  "agents": [
+    "Alice",
+    "Bob",
+    "Charlie",
+    "David"
+  ],
+  "relations": {
+    "Alice": {
+      "Bob": {
+        "from_agent": "Alice",
+        "to_agent": "Bob",
+        "intimacy": 1.0,
+        "relation_type": "friend",
+        "trust": 0.064,
+        "respect": 0.048,
+        "affection": 0.032,
+        "dependency": 0.016,
+        "positive_interactions": 1,
+        "negative_interactions": 0,
+        "neutral_interactions": 0,
+        "last_update_time": 1760579819.084029,
+        "interaction_count": 1
+      },
+      "Charlie": {
+        "from_agent": "Alice",
+        "to_agent": "Charlie",
+        "intimacy": -0.0526,
+        "relation_type": "acquaintance",
+        "trust": 0.042,
+        "respect": 0.03,
+        "affection": 0.048,
+        "dependency": 0.0,
+        "positive_interactions": 0,
+        "negative_interactions": 1,
+        "neutral_interactions": 0,
+        "last_update_time": 1760579819.084029,
+        "interaction_count": 1
+      },
+      "David": {
+        "from_agent": "Alice",
+        "to_agent": "David",
+        "intimacy": -1.0,
+        "relation_type": "rival",
+        "trust": 0.03,
+        "respect": 0.02,
+        "affection": 0.035,
+        "dependency": 0.025,
+        "positive_interactions": 1,
+        "negative_interactions": 0,
+        "neutral_interactions": 0,
+        "last_update_time": 1760579819.084029,
+        "interaction_count": 1
+      }
+    },
+    "Bob": {
+      "Alice": {
+        "from_agent": "Bob",
+        "to_agent": "Alice",
+        "intimacy": 0.0399,
+        "relation_type": "friend",
+        "trust": 0.056,
+        "respect": 0.042,
+        "affection": 0.028,
+        "dependency": 0.014,
+        "positive_interactions": 1,
+        "negative_interactions": 0,
+        "neutral_interactions": 0,
+        "last_update_time": 1760579819.084029,
+        "interaction_count": 1
+      }
+    },
+    "Charlie": {
+      "Alice": {
+        "from_agent": "Charlie",
+        "to_agent": "Alice",
+        "intimacy": 0.0488,
+        "relation_type": "acquaintance",
+        "trust": 0.056,
+        "respect": 0.04,
+        "affection": 0.064,
+        "dependency": 0.0,
+        "positive_interactions": 0,
+        "negative_interactions": 1,
+        "neutral_interactions": 0,
+        "last_update_time": 1760579819.084029,
+        "interaction_count": 1
+      }
+    },
+    "David": {
+      "Alice": {
+        "from_agent": "David",
+        "to_agent": "Alice",
+        "intimacy": 0.0171,
+        "relation_type": "rival",
+        "trust": 0.018,
+        "respect": 0.012,
+        "affection": 0.021,
+        "dependency": 0.015,
+        "positive_interactions": 1,
+        "negative_interactions": 0,
+        "neutral_interactions": 0,
+        "last_update_time": 1760579819.084029,
+        "interaction_count": 1
+      }
+    }
+  }
+}

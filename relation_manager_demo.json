@@ -1,0 +1,282 @@
+{
+  "directed_graph": {
+    "agents": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "relations": {
+      "Alice": {
+        "Bob": {
+          "from_agent": "Alice",
+          "to_agent": "Bob",
+          "intimacy": 1.0,
+          "relation_type": "friend",
+          "trust": 0.0654,
+          "respect": 0.0491,
+          "affection": 0.0327,
+          "dependency": 0.0164,
+          "positive_interactions": 1,
+          "negative_interactions": 0,
+          "neutral_interactions": 0,
+          "last_update_time": 1760591539.537677,
+          "interaction_count": 1
+        },
+        "Charlie": {
+          "from_agent": "Alice",
+          "to_agent": "Charlie",
+          "intimacy": -0.0103,
+          "relation_type": "rival",
+          "trust": 0.0424,
+          "respect": 0.0303,
+          "affection": 0.0485,
+          "dependency": 0.0,
+          "positive_interactions": 0,
+          "negative_interactions": 1,
+          "neutral_interactions": 0,
+          "last_update_time": 1760591539.538679,
+          "interaction_count": 1
+        },
+        "David": {
+          "from_agent": "Alice",
+          "to_agent": "David",
+          "intimacy": -1.0,
+          "relation_type": "coworker",
+          "trust": 0.029,
+          "respect": 0.0193,
+          "affection": 0.0338,
+          "dependency": 0.0242,
+          "positive_interactions": 1,
+          "negative_interactions": 0,
+          "neutral_interactions": 0,
+          "last_update_time": 1760591539.539674,
+          "interaction_count": 1
+        }
+      },
+      "Bob": {
+        "Alice": {
+          "from_agent": "Bob",
+          "to_agent": "Alice",
+          "intimacy": 0.0466,
+          "relation_type": "friend",
+          "trust": 0.0654,
+          "respect": 0.0491,
+          "affection": 0.0327,
+          "dependency": 0.0164,
+          "positive_interactions": 1,
+          "negative_interactions": 0,
+          "neutral_interactions": 0,
+          "last_update_time": 1760591539.537677,
+          "interaction_count": 1
+        }
+      },
+      "Charlie": {
+        "Alice": {
+          "from_agent": "Charlie",
+          "to_agent": "Alice",
+          "intimacy": 0.037,
+          "relation_type": "rival",
+          "trust": 0.0424,
+          "respect": 0.0303,
+          "affection": 0.0485,
+          "dependency": 0.0,
+          "positive_interactions": 0,
+          "negative_interactions": 1,
+          "neutral_interactions": 0,
+          "last_update_time": 1760591539.538679,
+          "interaction_count": 1
+        }
+      },
+      "David": {
+        "Alice": {
+          "from_agent": "David",
+          "to_agent": "Alice",
+          "intimacy": 0.033,
+          "relation_type": "coworker",
+          "trust": 0.0348,
+          "respect": 0.0232,
+          "affection": 0.0406,
+          "dependency": 0.029,
+          "positive_interactions": 1,
+          "negative_interactions": 0,
+          "neutral_interactions": 0,
+          "last_update_time": 1760591539.539674,
+          "interaction_count": 1
+        }
+      },
+      "Eve": {}
+    }
+  },
+  "emotion_history": {
+    "Alice->Bob": [
+      {
+        "event_type": "cooperation",
+        "context": "成功完成重要项目",
+        "from_emotion": {
+          "valence": 0.731,
+          "arousal": 0.828,
+          "dominance": 0.531,
+          "joy": 0.694,
+          "sadness": -0.149,
+          "anger": 0.053,
+          "fear": -0.005,
+          "surprise": 0.123,
+          "disgust": -0.015,
+          "trust": 0.093,
+          "anticipation": 0.565,
+          "optimism": -0.12,
+          "anxiety": 0.189,
+          "guilt": 0.128,
+          "pride": 0.106,
+          "shame": -0.159,
+          "envy": 0.1,
+          "gratitude": -0.158,
+          "hope": 0.592,
+          "intensity": 0.46,
+          "timestamp": 1760591539.0,
+          "context": "合作项目"
+        },
+        "to_emotion": {
+          "valence": 0.529,
+          "arousal": 0.448,
+          "dominance": 0.532,
+          "joy": 0.02,
+          "sadness": -0.049,
+          "anger": -0.131,
+          "fear": 0.049,
+          "surprise": -0.104,
+          "disgust": 0.01,
+          "trust": 0.124,
+          "anticipation": 0.495,
+          "optimism": 0.786,
+          "anxiety": 0.041,
+          "guilt": 0.125,
+          "pride": 0.175,
+          "shame": -0.083,
+          "envy": -0.146,
+          "gratitude": 0.151,
+          "hope": 0.944,
+          "intensity": 0.314,
+          "timestamp": 1760591539.0,
+          "context": "合作项目"
+        },
+        "impact1": 0.8178890782950046,
+        "impact2": 0.8178890782950046
+      }
+    ],
+    "Alice->Charlie": [
+      {
+        "event_type": "conflict",
+        "context": "在会议上发生激烈争论",
+        "from_emotion": {
+          "valence": -0.782,
+          "arousal": 0.911,
+          "dominance": 0.559,
+          "joy": 0.109,
+          "sadness": 0.191,
+          "anger": 0.815,
+          "fear": 0.182,
+          "surprise": -0.044,
+          "disgust": 0.215,
+          "trust": -0.038,
+          "anticipation": -0.148,
+          "optimism": 0.069,
+          "anxiety": -0.129,
+          "guilt": 0.195,
+          "pride": 0.094,
+          "shame": 0.133,
+          "envy": -0.115,
+          "gratitude": 0.114,
+          "hope": -0.083,
+          "intensity": 0.491,
+          "timestamp": 1760591539.0,
+          "context": "争论"
+        },
+        "to_emotion": {
+          "valence": -0.794,
+          "arousal": 0.839,
+          "dominance": 0.555,
+          "joy": -0.031,
+          "sadness": -0.018,
+          "anger": 1.034,
+          "fear": -0.09,
+          "surprise": 0.148,
+          "disgust": 0.316,
+          "trust": -0.046,
+          "anticipation": 0.11,
+          "optimism": -0.061,
+          "anxiety": -0.102,
+          "guilt": -0.007,
+          "pride": -0.102,
+          "shame": 0.113,
+          "envy": 0.007,
+          "gratitude": -0.036,
+          "hope": 0.1,
+          "intensity": 0.482,
+          "timestamp": 1760591539.0,
+          "context": "争论"
+        },
+        "impact1": -0.6062218239355113,
+        "impact2": -0.6062218239355113
+      }
+    ],
+    "David->Alice": [
+      {
+        "event_type": "help",
+        "context": "David在困难时刻帮助了Alice",
+        "from_emotion": {
+          "valence": 0.022,
+          "arousal": 0.119,
+          "dominance": 0.051,
+          "joy": 0.197,
+          "sadness": -0.094,
+          "anger": 0.179,
+          "fear": 0.112,
+          "surprise": -0.171,
+          "disgust": -0.146,
+          "trust": -0.117,
+          "anticipation": -0.11,
+          "optimism": 0.151,
+          "anxiety": -0.003,
+          "guilt": 0.126,
+          "pride": 0.056,
+          "shame": 0.092,
+          "envy": -0.192,
+          "gratitude": -0.185,
+          "hope": -0.083,
+          "intensity": 0.108,
+          "timestamp": 1760591539.0,
+          "context": "提供帮助"
+        },
+        "to_emotion": {
+          "valence": 0.987,
+          "arousal": 0.304,
+          "dominance": 0.223,
+          "joy": 0.474,
+          "sadness": -0.194,
+          "anger": 0.172,
+          "fear": -0.04,
+          "surprise": -0.193,
+          "disgust": 0.054,
+          "trust": 0.62,
+          "anticipation": -0.182,
+          "optimism": -0.166,
+          "anxiety": -0.009,
+          "guilt": -0.129,
+          "pride": 0.177,
+          "shame": 0.176,
+          "envy": 0.003,
+          "gratitude": 0.94,
+          "hope": -0.014,
+          "intensity": 0.426,
+          "timestamp": 1760591539.0,
+          "context": "接受帮助"
+        },
+        "impact1": 0.5797116056589758,
+        "impact2": 0.48309300471581323
+      }
+    ]
+  }
+}
