@@ -100,30 +100,52 @@ async def simulate_step_for_agent(
 
     # 生成情绪状态
     current_emotion = None
+    start_emotion = extract_emotion_from_state(last_state_dict)
     if prev_items:
         # 基于上一个tick的情绪和当前上下文生成新情绪
         last_emotion = extract_emotion_from_state(prev_items[-1].state)
         if last_emotion:
-            # 构建上下文信息用于情绪演化
             context_info = f"Location: {last_location}, Action: {data.get('action', '')}, Speech: {data.get('speech', '')}, Thoughts: {data.get('thoughts', '')}"
             current_emotion = EmotionGenerator.evolve_emotion(
-                last_emotion, 
-                context_info, 
+                last_emotion,
+                context_info,
                 {"description": agent.description}
             )
-    
-    if current_emotion is None:
-        # 生成初始情绪
+    else:
+        # 初始tick：优先从初始mood/情绪出发，再结合上下文演化
         context_info = f"Environment: {env.title}, Location: {last_location}, Action: {data.get('action', '')}"
-        current_emotion = EmotionGenerator.generate_from_context(
-            context_info, 
-            {"description": agent.description}
-        )
+        if start_emotion:
+            current_emotion = EmotionGenerator.evolve_emotion(
+                start_emotion,
+                context_info,
+                {"description": agent.description}
+            )
+        else:
+            current_emotion = EmotionGenerator.generate_from_context(
+                context_info,
+                {"description": agent.description}
+            )
 
     # 确保状态包含情绪信息
     new_state = data.get("state") or {}
     new_state = ensure_emotion_in_state(new_state, {"description": agent.description})
-    new_state["emotion"] = current_emotion.to_dict()
+    # 仅当计算出的情绪具备有效强度时覆盖，避免写入全0情绪
+    if current_emotion and (abs(current_emotion.intensity) > 1e-6 or any(abs(getattr(current_emotion, k, 0.0)) > 1e-6 for k in [
+        "valence","arousal","dominance","joy","sadness","anger","fear","surprise","disgust","trust","anticipation","optimism","anxiety","guilt","pride","shame","envy","gratitude","hope"
+    ])):
+        new_state["emotion"] = current_emotion.to_dict()
+    else:
+        # 退化为平静基线，避免全0
+        from .emotion_model import EmotionGenerator as _EG
+        baseline = _EG.generate_from_template("calm", variation=0.1, context="baseline calm")
+        new_state["emotion"] = baseline.to_dict()
+        current_emotion = baseline
+
+    # 确保用于日志/输出的对象与状态中的情绪一致
+    try:
+        current_emotion = EmotionProfile.from_dict(new_state["emotion"])  # type: ignore[arg-type]
+    except Exception:
+        pass
 
     out = AgentTickOutput(
         agent_id=agent.id,

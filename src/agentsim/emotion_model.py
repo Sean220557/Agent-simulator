@@ -98,12 +98,15 @@ class EmotionProfile:
         self.arousal = max(-1.0, min(1.0, self.arousal))
         self.dominance = max(-1.0, min(1.0, self.dominance))
 
-        # 基本情绪维度 - 支持负值但限制范围
-        for dimension in [self.joy, self.sadness, self.anger, self.fear,
-                         self.disgust, self.anticipation, self.optimism,
-                         self.anxiety, self.guilt, self.pride, self.shame,
-                         self.envy, self.gratitude, self.hope]:
-            dimension = max(-0.5, min(1.0, dimension))
+        # 基本情绪维度 - 支持负值但限制范围（需要回写到属性上）
+        for name in [
+            "joy", "sadness", "anger", "fear",
+            "disgust", "anticipation", "optimism",
+            "anxiety", "guilt", "pride", "shame",
+            "envy", "gratitude", "hope",
+        ]:
+            value = getattr(self, name)
+            setattr(self, name, max(-0.5, min(1.0, value)))
 
         # 社会情绪维度
         self.trust = max(-1.0, min(1.0, self.trust))
@@ -538,7 +541,7 @@ class EmotionGenerator:
 
     @classmethod
     def _analyze_context_emotions(cls, context: str) -> EmotionProfile:
-        """分析上下文中的情绪关键词"""
+        """分析上下文中的情绪关键词（支持中英文）"""
         emotion = EmotionProfile(context=f"context: {context}")
 
         context_lower = context.lower()
@@ -565,15 +568,15 @@ class EmotionGenerator:
             "anxiety": ["anxious", "nervous", "worried", "stressed"]
         }
 
-        # 情境关键词
+        # 情境关键词（含中文）
         situation_keywords = {
-            "threat": ["threat", "danger", "risk", "menace", "hazard"],
-            "challenge": ["challenge", "obstacle", "difficulty", "problem"],
-            "support": ["support", "help", "assistance", "aid"],
-            "rejection": ["rejected", "ignored", "excluded", "dismissed"],
-            "success": ["success", "achievement", "victory", "triumph"],
-            "failure": ["failure", "defeat", "loss", "disappointment"],
-            "surprise": ["surprise", "unexpected", "sudden", "shocking"]
+            "threat": ["threat", "danger", "risk", "menace", "hazard", "威胁", "危险"],
+            "challenge": ["challenge", "obstacle", "difficulty", "problem", "挑战", "困难"],
+            "support": ["support", "help", "assistance", "aid", "支持", "帮助"],
+            "rejection": ["rejected", "ignored", "excluded", "dismissed", "拒绝", "忽视"],
+            "success": ["success", "achievement", "victory", "triumph", "成功", "胜利"],
+            "failure": ["failure", "defeat", "loss", "disappointment", "失败", "挫败"],
+            "surprise": ["surprise", "unexpected", "sudden", "shocking", "惊讶", "意外"]
         }
 
         # 分析情绪关键词

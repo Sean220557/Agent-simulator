@@ -1,3373 +1,2381 @@
 [
   {
-    "id": "agent_44345591d0734b0d9f15e621f1b1b76e",
-    "name": "Cynthia Jones",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Cleaner",
-    "income_level": "USD 1k-2k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "wooden desk near window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "coworker",
-        "strength": 0.61
-      },
-      "agent_32d783cb2e524c1ea6343bc7f932c554": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "neighbor",
-        "strength": 0.59
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "neighbor",
-        "strength": 0.51
-      },
-      "agent_138a339905ef464fb115b2a51acc39bf": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.53
-      }
-    }
-  },
-  {
-    "id": "agent_afafc33a827f4a64ae942ea2c9cbaa2b",
-    "name": "Stephanie Rodriguez",
-    "gender": "Non-binary/Other",
+    "id": "agent_af18e99fed524a1ca5b2519ec847d2d7",
+    "name": "Robert Johnson",
+    "gender": "Male",
     "age": 17,
-    "occupation": "Nurse",
-    "income_level": "USD 2k-4k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "front row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "neighbor",
-        "strength": 0.45
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "neighbor",
-        "strength": 0.52
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "coworker",
-        "strength": 0.69
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.45
-      }
-    }
-  },
-  {
-    "id": "agent_4486c26a8ec149b0855b92786bafac87",
-    "name": "Jessica Davis",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Retail clerk",
-    "income_level": "USD 4k-8k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "middle row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.46
-      },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.47
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "coworker",
-        "strength": 0.58
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.48
-      }
-    }
-  },
-  {
-    "id": "agent_f1ac32436154466ba4c441452debc031",
-    "name": "Jennifer Brown",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Cleaner",
-    "income_level": "USD 4k-8k/month",
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
     "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
+    "description": "Ordinary resident; cooperative and family-oriented.",
     "initial_memory": [
       "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
     ],
     "initial_state": {
-      "location": "back row desk",
-      "mood": "calm"
+      "location": "desk near window",
+      "activity": "taking notes",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
     },
     "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
         "type": "coworker",
-        "strength": 0.79
+        "strength": 0.8
       },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.47
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "neighbor",
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
         "strength": 0.66
       },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
+      "agent_439a2b1e53af4261b2c5b15297253e30": {
         "type": "coworker",
         "strength": 0.68
       },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "coworker",
-        "strength": 0.65
-      }
-    }
-  },
-  {
-    "id": "agent_d0eb0b7838a84945b50242a3f7b6777c",
-    "name": "Donna Harris",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Volunteer",
-    "income_level": "USD 4k-8k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near teacher's podium",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_c81a85aaaca343ff9b11fc5563aa8eeb": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "neighbor",
-        "strength": 0.57
-      },
-      "agent_f31b1f8e96de4957a67435999634c977": {
-        "type": "acquaintance",
-        "strength": 0.51
-      }
-    }
-  },
-  {
-    "id": "agent_81ac91ee3d88436aaf6f970ca3caf381",
-    "name": "Amanda Wilson",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Teacher",
-    "income_level": "USD 1k-2k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by American flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "neighbor",
-        "strength": 0.54
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "coworker",
-        "strength": 0.57
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_c81a85aaaca343ff9b11fc5563aa8eeb": {
-        "type": "acquaintance",
-        "strength": 0.41
-      }
-    }
-  },
-  {
-    "id": "agent_5043eea28f874e408471343462852a90",
-    "name": "Sandra Clark",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Nurse",
-    "income_level": ">USD 15k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by California flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_ed59368cdcfe4f668a114f1d8d407024": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "coworker",
-        "strength": 0.57
-      }
-    }
-  },
-  {
-    "id": "agent_b927c54921394e67a1768ca58e60fd1c",
-    "name": "Elizabeth Anderson",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Cleaner",
-    "income_level": "USD 2k-4k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near observation window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "coworker",
-        "strength": 0.79
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "coworker",
-        "strength": 0.78
-      },
-      "agent_bb88e01844204aa2991f38e2d71565ee": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_8f33c84a84c04fcd9a58fa087d4e094d": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "neighbor",
-        "strength": 0.56
-      },
-      "agent_c81a85aaaca343ff9b11fc5563aa8eeb": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.49
-      }
-    }
-  },
-  {
-    "id": "agent_16f0f23f34674b41b73b225a49d3a819",
-    "name": "Kimberly Jones",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Office worker",
-    "income_level": ">USD 15k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near projector screen",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
-        "type": "coworker",
-        "strength": 0.56
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "neighbor",
-        "strength": 0.65
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "coworker",
-        "strength": 0.7
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "neighbor",
-        "strength": 0.46
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_138a339905ef464fb115b2a51acc39bf": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_f31b1f8e96de4957a67435999634c977": {
-        "type": "acquaintance",
-        "strength": 0.47
-      }
-    }
-  },
-  {
-    "id": "agent_8b09c89644f74b3aa6dfd3a3cc44e79d",
-    "name": "Michelle Jackson",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Security staff",
-    "income_level": "<USD 1k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near discipline board",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "coworker",
-        "strength": 0.78
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_a960a74637ac4f48a3622ee73f870ed9": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.37
-      }
-    }
-  },
-  {
-    "id": "agent_61d87fb018334fda8148be6b95bdfe51",
-    "name": "Stephanie White",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Driver",
-    "income_level": ">USD 15k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near classroom door",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.46
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_f655d6d9c0e04c47a39baf3516477f35": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "coworker",
-        "strength": 0.59
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
         "type": "coworker",
         "strength": 0.72
       },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "acquaintance",
-        "strength": 0.46
-      },
-      "agent_ed59368cdcfe4f668a114f1d8d407024": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
         "type": "coworker",
         "strength": 0.66
       },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "coworker",
-        "strength": 0.59
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_f31b1f8e96de4957a67435999634c977": {
-        "type": "neighbor",
-        "strength": 0.5
-      }
-    }
-  },
-  {
-    "id": "agent_dce4807900be45b684ce85711a340425",
-    "name": "Stephanie Harris",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Cleaner",
-    "income_level": "<USD 1k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near bookshelf",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
         "type": "coworker",
         "strength": 0.61
       },
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
+      "agent_de24bf6d54354592897a007dc4102c3d": {
         "type": "coworker",
-        "strength": 0.78
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
         "strength": 0.56
       },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_f31b1f8e96de4957a67435999634c977": {
-        "type": "acquaintance",
-        "strength": 0.48
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.68
       }
     }
   },
   {
-    "id": "agent_bb88e01844204aa2991f38e2d71565ee",
-    "name": "Sandra Harris",
+    "id": "agent_66321b527b224ff7bcee5c666af87ff2",
+    "name": "Mary Williams",
     "gender": "Female",
     "age": 16,
-    "occupation": "Nurse",
-    "income_level": "<USD 1k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
     "initial_memory": [
       "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "wooden desk near window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "coworker",
-        "strength": 0.77
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "neighbor",
-        "strength": 0.49
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.36
-      }
-    }
-  },
-  {
-    "id": "agent_3fccaf23c0de4c53afe7e1f928b6ff14",
-    "name": "Rebecca Thompson",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Teacher",
-    "income_level": "<USD 1k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
     ],
     "initial_state": {
       "location": "front row desk",
-      "mood": "calm"
+      "activity": "reading textbook",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
     },
     "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_5043eea28f874e408471343462852a90": {
-        "type": "acquaintance",
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
         "strength": 0.59
       },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "neighbor",
-        "strength": 0.47
-      },
-      "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_138a339905ef464fb115b2a51acc39bf": {
-        "type": "coworker",
-        "strength": 0.74
-      }
-    }
-  },
-  {
-    "id": "agent_2577c68d0e8a408cb229196746f9a272",
-    "name": "Margaret Davis",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Nurse",
-    "income_level": "USD 8k-15k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "middle row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_f42b8f3ffe704431836f784e1928ce6a": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.48
-      }
-    }
-  },
-  {
-    "id": "agent_be21b1fe1756493ca301cee8b554b435",
-    "name": "Laura Martinez",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Volunteer",
-    "income_level": ">USD 15k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "back row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_f655d6d9c0e04c47a39baf3516477f35": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.53
-      }
-    }
-  },
-  {
-    "id": "agent_32d783cb2e524c1ea6343bc7f932c554",
-    "name": "Sharon Williams",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Teacher",
-    "income_level": "USD 2k-4k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near teacher's podium",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "coworker",
-        "strength": 0.77
-      },
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "coworker",
-        "strength": 0.74
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_138a339905ef464fb115b2a51acc39bf": {
-        "type": "coworker",
-        "strength": 0.57
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.5
-      }
-    }
-  },
-  {
-    "id": "agent_731a761bb20a4b9e83b0a42131b3768a",
-    "name": "Megan Lewis",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Volunteer",
-    "income_level": ">USD 15k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by American flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.47
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "neighbor",
-        "strength": 0.59
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
-        "type": "acquaintance",
-        "strength": 0.51
-      }
-    }
-  },
-  {
-    "id": "agent_f42b8f3ffe704431836f784e1928ce6a",
-    "name": "Emily Q. Perez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "High school student",
-    "income_level": "USD 2k-4k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by California flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "neighbor",
-        "strength": 0.53
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "neighbor",
-        "strength": 0.49
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "acquaintance",
-        "strength": 0.46
-      }
-    }
-  },
-  {
-    "id": "agent_83ca4eb9d5e04e36861c047bbe4e544a",
-    "name": "Nicole Walker",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Security staff",
-    "income_level": "USD 2k-4k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near observation window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "neighbor",
-        "strength": 0.46
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
         "type": "coworker",
         "strength": 0.65
       },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.42
-      }
-    }
-  },
-  {
-    "id": "agent_6013348fdbf5459e865ea79125a262b9",
-    "name": "Mary Robinson",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Volunteer",
-    "income_level": "USD 4k-8k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near projector screen",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_5043eea28f874e408471343462852a90": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "neighbor",
-        "strength": 0.68
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "coworker",
-        "strength": 0.69
-      }
-    }
-  },
-  {
-    "id": "agent_edcb257d47074e52825e2d29f1e18520",
-    "name": "Christina Allen",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Office worker",
-    "income_level": "<USD 1k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near discipline board",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "acquaintance",
-        "strength": 0.38
-      }
-    }
-  },
-  {
-    "id": "agent_e720085776844d31a8eb446c3740f5ac",
-    "name": "Sharon Clark",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Driver",
-    "income_level": "USD 1k-2k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near classroom door",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_8f33c84a84c04fcd9a58fa087d4e094d": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_a960a74637ac4f48a3622ee73f870ed9": {
-        "type": "neighbor",
-        "strength": 0.51
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.52
-      }
-    }
-  },
-  {
-    "id": "agent_8f33c84a84c04fcd9a58fa087d4e094d",
-    "name": "Samantha King",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Security staff",
-    "income_level": "USD 1k-2k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near bookshelf",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "neighbor",
-        "strength": 0.68
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "coworker",
-        "strength": 0.68
-      }
-    }
-  },
-  {
-    "id": "agent_f655d6d9c0e04c47a39baf3516477f35",
-    "name": "Rebecca Jackson",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Office worker",
-    "income_level": "USD 4k-8k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "wooden desk near window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "coworker",
-        "strength": 0.59
-      }
-    }
-  },
-  {
-    "id": "agent_90738337995749aeb7f078e0016cb79e",
-    "name": "Heather Green",
-    "gender": "female",
-    "age": 17,
-    "occupation": "High school student",
-    "income_level": "USD 8k-15k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "front row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "neighbor",
-        "strength": 0.45
-      },
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "neighbor",
-        "strength": 0.47
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "acquaintance",
-        "strength": 0.45
-      }
-    }
-  },
-  {
-    "id": "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44",
-    "name": "Cynthia Thomas",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Volunteer",
-    "income_level": "<USD 1k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "middle row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_ed59368cdcfe4f668a114f1d8d407024": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_138a339905ef464fb115b2a51acc39bf": {
-        "type": "neighbor",
-        "strength": 0.5
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
-        "type": "acquaintance",
-        "strength": 0.39
-      }
-    }
-  },
-  {
-    "id": "agent_1eb506941df44502b88eb079966f8b6e",
-    "name": "Rachel Baker",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Driver",
-    "income_level": "<USD 1k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "back row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "coworker",
-        "strength": 0.59
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "coworker",
-        "strength": 0.62
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
         "type": "coworker",
         "strength": 0.57
       },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "acquaintance",
-        "strength": 0.48
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.71
       },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "acquaintance",
-        "strength": 0.48
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.66
+      }
+    }
+  },
+  {
+    "id": "agent_a55a1419fcac425cbb6295dece7a6ef9",
+    "name": "James Smith",
+    "gender": "Male",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "middle desk",
+      "activity": "examining map",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.8
       },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
+      "agent_da5cd1f6b54946d08115662a371d8873": {
         "type": "coworker",
         "strength": 0.65
-      }
-    }
-  },
-  {
-    "id": "agent_448c452c312341b7b331d6e011fea426",
-    "name": "Donna Martin",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Office worker",
-    "income_level": "USD 1k-2k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near teacher's podium",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.48
       },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "coworker",
-        "strength": 0.56
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "coworker",
-        "strength": 0.67
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "coworker",
-        "strength": 0.67
-      },
-      "agent_a960a74637ac4f48a3622ee73f870ed9": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.37
-      }
-    }
-  },
-  {
-    "id": "agent_4d601357f23941b292f917c4e798f138",
-    "name": "Tiffany Carter",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Nurse",
-    "income_level": "USD 1k-2k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by American flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "neighbor",
-        "strength": 0.54
-      },
-      "agent_bb88e01844204aa2991f38e2d71565ee": {
+      "agent_439a2b1e53af4261b2c5b15297253e30": {
         "type": "coworker",
         "strength": 0.77
       },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "neighbor",
-        "strength": 0.59
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "coworker",
-        "strength": 0.7
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.45
-      }
-    }
-  },
-  {
-    "id": "agent_3dd3c722a7e34df79345fa3440adeb73",
-    "name": "Stephanie S. Rodriguez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Teacher",
-    "income_level": "USD 2k-4k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by California flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "coworker",
-        "strength": 0.57
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_32d783cb2e524c1ea6343bc7f932c554": {
-        "type": "coworker",
-        "strength": 0.77
-      },
-      "agent_f42b8f3ffe704431836f784e1928ce6a": {
-        "type": "neighbor",
-        "strength": 0.53
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "coworker",
-        "strength": 0.73
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.47
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.53
-      }
-    }
-  },
-  {
-    "id": "agent_eb4f95a8b1c849d88ccba3016fcd1d1f",
-    "name": "Danielle Perez",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Driver",
-    "income_level": "USD 4k-8k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near observation window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "neighbor",
-        "strength": 0.56
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "coworker",
-        "strength": 0.72
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "coworker",
-        "strength": 0.62
-      },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "coworker",
-        "strength": 0.57
-      }
-    }
-  },
-  {
-    "id": "agent_558fae8fddfe47d6b60810e54c6f3503",
-    "name": "Jessica Sanchez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Volunteer",
-    "income_level": "USD 1k-2k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near projector screen",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_5043eea28f874e408471343462852a90": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "neighbor",
-        "strength": 0.65
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_a960a74637ac4f48a3622ee73f870ed9": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
-        "type": "acquaintance",
-        "strength": 0.57
-      }
-    }
-  },
-  {
-    "id": "agent_e8180f386b1c45f483d2c00559c0bf84",
-    "name": "Brittany Turner",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Nurse",
-    "income_level": "<USD 1k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near discipline board",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.47
-      },
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "coworker",
-        "strength": 0.73
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_a960a74637ac4f48a3622ee73f870ed9": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
         "type": "coworker",
         "strength": 0.66
       },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "coworker",
-        "strength": 0.62
-      }
-    }
-  },
-  {
-    "id": "agent_8789dfd85deb4e0cac7c9a615f7249c4",
-    "name": "Elizabeth Martinez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Teacher",
-    "income_level": ">USD 15k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near classroom door",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_32d783cb2e524c1ea6343bc7f932c554": {
+      "agent_b31ece136ba34803807dc0527161d194": {
         "type": "coworker",
         "strength": 0.74
       },
-      "agent_edcb257d47074e52825e2d29f1e18520": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.6
-      }
-    }
-  },
-  {
-    "id": "agent_87a9c3679b8c4a82a37393ca1215dd51",
-    "name": "Vanessa Campbell",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Security staff",
-    "income_level": "USD 1k-2k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near bookshelf",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "coworker",
-        "strength": 0.78
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.46
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_edcb257d47074e52825e2d29f1e18520": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.55
-      }
-    }
-  },
-  {
-    "id": "agent_d58edf0b4c204fd4990d7689f97cfa69",
-    "name": "Amy Perez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Office worker",
-    "income_level": "USD 8k-15k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "wooden desk near window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
-        "type": "neighbor",
-        "strength": 0.59
-      },
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
         "type": "coworker",
         "strength": 0.7
       },
-      "agent_bb88e01844204aa2991f38e2d71565ee": {
-        "type": "neighbor",
-        "strength": 0.49
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
         "type": "coworker",
-        "strength": 0.67
+        "strength": 0.56
       },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "coworker",
-        "strength": 0.69
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
+      "agent_056fd45e6c294561ad556e570dbd0dc6": {
         "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "acquaintance",
-        "strength": 0.4
+        "strength": 0.5
       }
     }
   },
   {
-    "id": "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97",
-    "name": "Alexandra Evans",
-    "gender": "female",
+    "id": "agent_463dc8e1ecce4770a0f04c906922d4e2",
+    "name": "Patricia Brown",
+    "gender": "Female",
     "age": 17,
-    "occupation": "Retail clerk",
-    "income_level": "USD 8k-15k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
     "initial_memory": [
       "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
     ],
     "initial_state": {
-      "location": "front row desk",
-      "mood": "calm"
+      "location": "back row desk",
+      "activity": "reviewing documents",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
     },
     "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "neighbor",
-        "strength": 0.52
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.8
       },
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.49
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.61
       },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.59
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.65
       },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_c81a85aaaca343ff9b11fc5563aa8eeb": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
         "type": "coworker",
         "strength": 0.76
       },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
-        "type": "acquaintance",
-        "strength": 0.56
-      }
-    }
-  },
-  {
-    "id": "agent_c81a85aaaca343ff9b11fc5563aa8eeb",
-    "name": "Stephanie Lopez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Volunteer",
-    "income_level": "USD 2k-4k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "middle row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
         "type": "coworker",
         "strength": 0.63
       },
-      "agent_81ac91ee3d88436aaf6f970ca3caf381": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_138a339905ef464fb115b2a51acc39bf": {
-        "type": "neighbor",
-        "strength": 0.65
-      }
-    }
-  },
-  {
-    "id": "agent_53e325bc613249e68c63eb8ff21237d3",
-    "name": "Victoria Collins",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Teacher",
-    "income_level": "<USD 1k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "back row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "neighbor",
-        "strength": 0.66
-      },
-      "agent_bb88e01844204aa2991f38e2d71565ee": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_f42b8f3ffe704431836f784e1928ce6a": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_f655d6d9c0e04c47a39baf3516477f35": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "coworker",
-        "strength": 0.73
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
-        "type": "neighbor",
-        "strength": 0.7
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.37
-      }
-    }
-  },
-  {
-    "id": "agent_c6d010d0f5ba4f4882f5e38f04f34c55",
-    "name": "Emily Miller",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Office worker",
-    "income_level": "<USD 1k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near teacher's podium",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
-        "type": "neighbor",
-        "strength": 0.57
-      },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
         "type": "coworker",
         "strength": 0.67
       },
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "coworker",
-        "strength": 0.69
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "neighbor",
-        "strength": 0.47
-      },
-      "agent_f31b1f8e96de4957a67435999634c977": {
-        "type": "acquaintance",
-        "strength": 0.46
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "coworker",
-        "strength": 0.6
-      }
-    }
-  },
-  {
-    "id": "agent_ed59368cdcfe4f668a114f1d8d407024",
-    "name": "Hannah Sanchez",
-    "gender": "female",
-    "age": 17,
-    "occupation": "High school student",
-    "income_level": "USD 1k-2k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by American flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_5043eea28f874e408471343462852a90": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44": {
-        "type": "acquaintance",
-        "strength": 0.5
-      }
-    }
-  },
-  {
-    "id": "agent_581a8a9b53dd4023b8af849647f8ea13",
-    "name": "Jessica Robinson",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Nurse",
-    "income_level": "USD 4k-8k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by California flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_32d783cb2e524c1ea6343bc7f932c554": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_f42b8f3ffe704431836f784e1928ce6a": {
-        "type": "neighbor",
-        "strength": 0.49
-      },
-      "agent_f655d6d9c0e04c47a39baf3516477f35": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "coworker",
-        "strength": 0.7
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "coworker",
-        "strength": 0.73
-      },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "coworker",
-        "strength": 0.59
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.37
-      }
-    }
-  },
-  {
-    "id": "agent_bbb4af164ce24102a6e6d62cfd1b46d6",
-    "name": "Alexis Rogers",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Driver",
-    "income_level": "USD 2k-4k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near observation window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "coworker",
-        "strength": 0.66
-      },
-      "agent_bb88e01844204aa2991f38e2d71565ee": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_f42b8f3ffe704431836f784e1928ce6a": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
         "type": "coworker",
         "strength": 0.57
       },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "neighbor",
-        "strength": 0.47
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "coworker",
+        "strength": 0.78
       }
     }
   },
   {
-    "id": "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb",
-    "name": "Rebecca Harris",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Retail clerk",
-    "income_level": "<USD 1k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near projector screen",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "coworker",
-        "strength": 0.58
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "neighbor",
-        "strength": 0.46
-      },
-      "agent_f42b8f3ffe704431836f784e1928ce6a": {
-        "type": "acquaintance",
-        "strength": 0.46
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "coworker",
-        "strength": 0.76
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "neighbor",
-        "strength": 0.64
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.39
-      }
-    }
-  },
-  {
-    "id": "agent_998f49cb599f4bf0ad1f36cf6e2e97d7",
-    "name": "Olivia Cook",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Nurse",
-    "income_level": "USD 8k-15k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near discipline board",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "coworker",
-        "strength": 0.69
-      },
-      "agent_5043eea28f874e408471343462852a90": {
-        "type": "coworker",
-        "strength": 0.57
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "coworker",
-        "strength": 0.59
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "coworker",
-        "strength": 0.55
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "neighbor",
-        "strength": 0.58
-      }
-    }
-  },
-  {
-    "id": "agent_a960a74637ac4f48a3622ee73f870ed9",
-    "name": "Deborah Perez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Teacher",
-    "income_level": "USD 4k-8k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near classroom door",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "neighbor",
-        "strength": 0.51
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.51
-      }
-    }
-  },
-  {
-    "id": "agent_899307f208734e6881e9dc4a805e8db2",
-    "name": "Erica Bell",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Cleaner",
-    "income_level": "USD 4k-8k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near bookshelf",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_afafc33a827f4a64ae942ea2c9cbaa2b": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_8f33c84a84c04fcd9a58fa087d4e094d": {
-        "type": "neighbor",
-        "strength": 0.68
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_581a8a9b53dd4023b8af849647f8ea13": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.4
-      }
-    }
-  },
-  {
-    "id": "agent_82a05ece48e64d13abb019378936d361",
-    "name": "Sandra Lewis",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "High school student",
-    "income_level": "<USD 1k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "wooden desk near window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
-        "type": "neighbor",
-        "strength": 0.51
-      },
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.39
-      }
-    }
-  },
-  {
-    "id": "agent_4fc6eceaee77450aa5ef7cfb31cf7211",
-    "name": "Katherine Bailey",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Driver",
-    "income_level": "<USD 1k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "front row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.44
-      },
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "coworker",
-        "strength": 0.59
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "coworker",
-        "strength": 0.63
-      },
-      "agent_f655d6d9c0e04c47a39baf3516477f35": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_1eb506941df44502b88eb079966f8b6e": {
-        "type": "coworker",
-        "strength": 0.65
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_87a9c3679b8c4a82a37393ca1215dd51": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "acquaintance",
-        "strength": 0.41
-      }
-    }
-  },
-  {
-    "id": "agent_138a339905ef464fb115b2a51acc39bf",
-    "name": "Donna Hernandez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Teacher",
-    "income_level": "<USD 1k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "middle row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
-        "type": "acquaintance",
-        "strength": 0.43
-      },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_3fccaf23c0de4c53afe7e1f928b6ff14": {
-        "type": "coworker",
-        "strength": 0.74
-      },
-      "agent_32d783cb2e524c1ea6343bc7f932c554": {
-        "type": "coworker",
-        "strength": 0.57
-      },
-      "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44": {
-        "type": "neighbor",
-        "strength": 0.5
-      },
-      "agent_c81a85aaaca343ff9b11fc5563aa8eeb": {
-        "type": "neighbor",
-        "strength": 0.65
-      }
-    }
-  },
-  {
-    "id": "agent_4b1bfd5079a3414ebf005a74cb1aa123",
-    "name": "Allison Richardson",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Nurse",
-    "income_level": "USD 1k-2k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "back row desk",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.35
-      },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "acquaintance",
-        "strength": 0.54
-      },
-      "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "coworker",
-        "strength": 0.66
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "neighbor",
-        "strength": 0.7
-      },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "coworker",
-        "strength": 0.68
-      }
-    }
-  },
-  {
-    "id": "agent_d69deb639daa44c0a3b88f48ac78140c",
-    "name": "Linda Brown",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Driver",
-    "income_level": "USD 4k-8k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near teacher's podium",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_8b09c89644f74b3aa6dfd3a3cc44e79d": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_be21b1fe1756493ca301cee8b554b435": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_4d601357f23941b292f917c4e798f138": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_eb4f95a8b1c849d88ccba3016fcd1d1f": {
-        "type": "coworker",
-        "strength": 0.57
-      },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "neighbor",
-        "strength": 0.47
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_f31b1f8e96de4957a67435999634c977": {
-        "type": "acquaintance",
-        "strength": 0.59
-      }
-    }
-  },
-  {
-    "id": "agent_860b0242359c4e218643dac4c454f4e4",
-    "name": "Madison Howard",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Nurse",
-    "income_level": "USD 8k-15k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by American flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_4486c26a8ec149b0855b92786bafac87": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_448c452c312341b7b331d6e011fea426": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.47
-      },
-      "agent_e8180f386b1c45f483d2c00559c0bf84": {
-        "type": "coworker",
-        "strength": 0.62
-      },
-      "agent_8789dfd85deb4e0cac7c9a615f7249c4": {
-        "type": "acquaintance",
-        "strength": 0.6
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "coworker",
-        "strength": 0.55
-      },
-      "agent_82a05ece48e64d13abb019378936d361": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_4b1bfd5079a3414ebf005a74cb1aa123": {
-        "type": "coworker",
-        "strength": 0.68
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.35
-      }
-    }
-  },
-  {
-    "id": "agent_3cd3e64d85d9481a87c1deedea66d614",
-    "name": "Jessica Q. Lopez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Cleaner",
-    "income_level": "USD 2k-4k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk by California flag",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "coworker",
-        "strength": 0.68
-      },
-      "agent_731a761bb20a4b9e83b0a42131b3768a": {
-        "type": "acquaintance",
-        "strength": 0.51
-      },
-      "agent_7dcaed9cbfeb46fc90bf1c3d4f713d44": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_558fae8fddfe47d6b60810e54c6f3503": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_e5e7d66088ec4d9f8ce9d5bd26d6da97": {
-        "type": "acquaintance",
-        "strength": 0.56
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.57
-      }
-    }
-  },
-  {
-    "id": "agent_522c1d0274cb4f078cefc067f37b2955",
-    "name": "Grace Torres",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Cleaner",
-    "income_level": "USD 2k-4k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near observation window",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_f1ac32436154466ba4c441452debc031": {
-        "type": "coworker",
-        "strength": 0.65
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "neighbor",
-        "strength": 0.46
-      },
-      "agent_edcb257d47074e52825e2d29f1e18520": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_8f33c84a84c04fcd9a58fa087d4e094d": {
-        "type": "acquaintance",
-        "strength": 0.37
-      },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.59
-      },
-      "agent_bbb4af164ce24102a6e6d62cfd1b46d6": {
-        "type": "neighbor",
-        "strength": 0.47
-      },
-      "agent_4fc6eceaee77450aa5ef7cfb31cf7211": {
-        "type": "acquaintance",
-        "strength": 0.41
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.58
-      }
-    }
-  },
-  {
-    "id": "agent_9e8ef319d3a249c0a36547ad50990505",
-    "name": "Rebecca Hernandez",
-    "gender": "Female",
-    "age": 16,
-    "occupation": "Security staff",
-    "income_level": "USD 4k-8k/month",
-    "education": "High school",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near projector screen",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.39
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "coworker",
-        "strength": 0.65
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "neighbor",
-        "strength": 0.68
-      },
-      "agent_8f33c84a84c04fcd9a58fa087d4e094d": {
-        "type": "coworker",
-        "strength": 0.68
-      },
-      "agent_90738337995749aeb7f078e0016cb79e": {
-        "type": "acquaintance",
-        "strength": 0.45
-      },
-      "agent_d58edf0b4c204fd4990d7689f97cfa69": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "neighbor",
-        "strength": 0.64
-      },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
-        "type": "acquaintance",
-        "strength": 0.55
-      },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
-        "type": "acquaintance",
-        "strength": 0.38
-      }
-    }
-  },
-  {
-    "id": "agent_853427548fd04cf382781fb3f6ed29f9",
-    "name": "Lauren Gray",
-    "gender": "female",
-    "age": 17,
-    "occupation": "Volunteer",
-    "income_level": "USD 2k-4k/month",
-    "education": "Master",
-    "description": "Average resident, cooperative and community-oriented.",
-    "initial_memory": [
-      "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
-    ],
-    "initial_state": {
-      "location": "desk near discipline board",
-      "mood": "calm"
-    },
-    "relations": {
-      "agent_44345591d0734b0d9f15e621f1b1b76e": {
-        "type": "acquaintance",
-        "strength": 0.53
-      },
-      "agent_b927c54921394e67a1768ca58e60fd1c": {
-        "type": "acquaintance",
-        "strength": 0.49
-      },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_32d783cb2e524c1ea6343bc7f932c554": {
-        "type": "acquaintance",
-        "strength": 0.5
-      },
-      "agent_83ca4eb9d5e04e36861c047bbe4e544a": {
-        "type": "acquaintance",
-        "strength": 0.42
-      },
-      "agent_6013348fdbf5459e865ea79125a262b9": {
-        "type": "coworker",
-        "strength": 0.69
-      },
-      "agent_998f49cb599f4bf0ad1f36cf6e2e97d7": {
-        "type": "neighbor",
-        "strength": 0.58
-      },
-      "agent_899307f208734e6881e9dc4a805e8db2": {
-        "type": "acquaintance",
-        "strength": 0.4
-      },
-      "agent_3cd3e64d85d9481a87c1deedea66d614": {
-        "type": "acquaintance",
-        "strength": 0.57
-      },
-      "agent_522c1d0274cb4f078cefc067f37b2955": {
-        "type": "acquaintance",
-        "strength": 0.58
-      },
-      "agent_9e8ef319d3a249c0a36547ad50990505": {
-        "type": "acquaintance",
-        "strength": 0.38
-      },
-      "agent_f10767b933474970a1de08737f94eae7": {
-        "type": "acquaintance",
-        "strength": 0.59
-      }
-    }
-  },
-  {
-    "id": "agent_f31b1f8e96de4957a67435999634c977",
-    "name": "Michael Moore",
+    "id": "agent_350a45e5d1964dbb8fff3a539ad29055",
+    "name": "John Davis",
     "gender": "Male",
     "age": 16,
-    "occupation": "Retail clerk",
-    "income_level": ">USD 15k/month",
-    "education": "Associate",
-    "description": "Average resident, cooperative and community-oriented.",
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "High school",
+    "description": "Ordinary resident; cooperative and family-oriented.",
     "initial_memory": [
       "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
     ],
     "initial_state": {
-      "location": "desk near classroom door",
-      "mood": "calm"
+      "location": "aisle desk",
+      "activity": "listening to recording",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
     },
     "relations": {
-      "agent_d0eb0b7838a84945b50242a3f7b6777c": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_66321b527b224ff7bcee5c666af87ff2": {
+        "type": "coworker",
+        "strength": 0.59
+      },
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.59
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.62
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.64
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "coworker",
+        "strength": 0.7
+      }
+    }
+  },
+  {
+    "id": "agent_3ab604d44ee5415cac7d63e8c23bcc27",
+    "name": "Jennifer Miller",
+    "gender": "Female",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "desk near bookshelf",
+      "activity": "comparing newspaper clippings",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.7
+      },
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.75
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.72
+      }
+    }
+  },
+  {
+    "id": "agent_7b8570ab707744c4be65af1cbf1d10d8",
+    "name": "Michael Wilson",
+    "gender": "Male",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "center desk",
+      "activity": "preparing question",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_439a2b1e53af4261b2c5b15297253e30": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.76
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.55
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.61
+      }
+    }
+  },
+  {
+    "id": "agent_1ba5aa75dd45431594d11d8a1929e6df",
+    "name": "Linda Moore",
+    "gender": "Female",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "High school",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "front left desk",
+      "activity": "writing observations",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_da5cd1f6b54946d08115662a371d8873": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_7def2b8bf26d494fadbf76948e256804": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.73
+      }
+    }
+  },
+  {
+    "id": "agent_da5cd1f6b54946d08115662a371d8873",
+    "name": "William Taylor",
+    "gender": "Male",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "back left desk",
+      "activity": "analyzing propaganda posters",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.67
+      }
+    }
+  },
+  {
+    "id": "agent_439a2b1e53af4261b2c5b15297253e30",
+    "name": "Barbara Anderson",
+    "gender": "Female",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "middle right desk",
+      "activity": "discussing with neighbor",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.76
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.55
+      }
+    }
+  },
+  {
+    "id": "agent_90a9447bb9a24b938acac0b0fcc1c02f",
+    "name": "David Thomas",
+    "gender": "Male",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "High school",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "aisle end desk",
+      "activity": "referencing timeline",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_7def2b8bf26d494fadbf76948e256804": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.78
+      }
+    }
+  },
+  {
+    "id": "agent_e8af51f54f04419186bed4779931401d",
+    "name": "Susan Jackson",
+    "gender": "Female",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "window side desk",
+      "activity": "making comparisons",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_da5cd1f6b54946d08115662a371d8873": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.58
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.62
+      },
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.57
+      }
+    }
+  },
+  {
+    "id": "agent_3fc076fbd0704332a2c28f09ab13df7d",
+    "name": "Richard White",
+    "gender": "Male",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "front center desk",
+      "activity": "following along map",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.55
+      },
+      "agent_7def2b8bf26d494fadbf76948e256804": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "coworker",
+        "strength": 0.8
+      }
+    }
+  },
+  {
+    "id": "agent_bd0e96054c7941b48fbd25e79f11b74e",
+    "name": "Jessica Harris",
+    "gender": "Female",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "back right desk",
+      "activity": "organizing notes",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.59
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
+        "type": "coworker",
+        "strength": 0.76
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.7
+      },
+      "agent_7def2b8bf26d494fadbf76948e256804": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.59
+      }
+    }
+  },
+  {
+    "id": "agent_4e6b133d79b04676bcab0da60211af69",
+    "name": "Charles Martin",
+    "gender": "Male",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "middle left desk",
+      "activity": "studying economic charts",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_da5cd1f6b54946d08115662a371d8873": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.58
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_056fd45e6c294561ad556e570dbd0dc6": {
         "type": "acquaintance",
-        "strength": 0.51
+        "strength": 0.4
+      }
+    }
+  },
+  {
+    "id": "agent_7e4da6d4337a43658a7170085b17f44d",
+    "name": "Karen Thompson",
+    "gender": "Female",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "desk near door",
+      "activity": "preparing presentation",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.72
       },
-      "agent_16f0f23f34674b41b73b225a49d3a819": {
-        "type": "acquaintance",
-        "strength": 0.47
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.61
       },
-      "agent_61d87fb018334fda8148be6b95bdfe51": {
-        "type": "neighbor",
-        "strength": 0.5
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.72
+      }
+    }
+  },
+  {
+    "id": "agent_3f974def7b5141b99741cfbdee93e05e",
+    "name": "Thomas Garcia",
+    "gender": "Male",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "center back desk",
+      "activity": "reviewing speech transcripts",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.61
       },
-      "agent_dce4807900be45b684ce85711a340425": {
-        "type": "acquaintance",
-        "strength": 0.48
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.76
       },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
-        "type": "acquaintance",
-        "strength": 0.46
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.61
       },
-      "agent_d69deb639daa44c0a3b88f48ac78140c": {
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.76
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_da5cd1f6b54946d08115662a371d8873": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.6
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.61
+      }
+    }
+  },
+  {
+    "id": "agent_b31ece136ba34803807dc0527161d194",
+    "name": "Nancy Martinez",
+    "gender": "Female",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "High school",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "front right desk",
+      "activity": "annotating text",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.74
+      },
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.62
+      },
+      "agent_3ab604d44ee5415cac7d63e8c23bcc27": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_da5cd1f6b54946d08115662a371d8873": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_439a2b1e53af4261b2c5b15297253e30": {
+        "type": "coworker",
+        "strength": 0.76
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.75
+      },
+      "agent_7def2b8bf26d494fadbf76948e256804": {
+        "type": "coworker",
+        "strength": 0.74
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "coworker",
+        "strength": 0.57
+      }
+    }
+  },
+  {
+    "id": "agent_6bb31abab255438ea83a679b098cf971",
+    "name": "Christopher Robinson",
+    "gender": "Male",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "middle aisle desk",
+      "activity": "comparing ideologies",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.55
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
+        "type": "coworker",
+        "strength": 0.63
+      },
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.58
+      },
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "coworker",
+        "strength": 0.66
+      }
+    }
+  },
+  {
+    "id": "agent_3a2133285ec54dea9a52132a8f8388fb",
+    "name": "Betty Clark",
+    "gender": "Female",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "window corner desk",
+      "activity": "researching historical context",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.63
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.63
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_056fd45e6c294561ad556e570dbd0dc6": {
         "type": "acquaintance",
         "strength": 0.59
       }
     }
   },
   {
-    "id": "agent_f10767b933474970a1de08737f94eae7",
-    "name": "Chloe James",
-    "gender": "female",
+    "id": "agent_b9a68ed0bed3416682a755b139dcf0bf",
+    "name": "Daniel Rodriguez",
+    "gender": "Male",
     "age": 17,
-    "occupation": "Office worker",
-    "income_level": "USD 1k-2k/month",
-    "education": "Bachelor",
-    "description": "Average resident, cooperative and community-oriented.",
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
     "initial_memory": [
       "Cares about rules",
-      "Wants social acceptance",
-      "Pays attention to authority"
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
     ],
     "initial_state": {
-      "location": "desk near bookshelf",
-      "mood": "calm"
+      "location": "back corner desk",
+      "activity": "evaluating sources",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
     },
     "relations": {
-      "agent_bb88e01844204aa2991f38e2d71565ee": {
-        "type": "acquaintance",
-        "strength": 0.36
-      },
-      "agent_2577c68d0e8a408cb229196746f9a272": {
-        "type": "acquaintance",
-        "strength": 0.48
-      },
-      "agent_e720085776844d31a8eb446c3740f5ac": {
-        "type": "acquaintance",
-        "strength": 0.52
-      },
-      "agent_f655d6d9c0e04c47a39baf3516477f35": {
+      "agent_66321b527b224ff7bcee5c666af87ff2": {
         "type": "coworker",
-        "strength": 0.59
+        "strength": 0.65
       },
-      "agent_3dd3c722a7e34df79345fa3440adeb73": {
-        "type": "acquaintance",
-        "strength": 0.53
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.67
       },
-      "agent_53e325bc613249e68c63eb8ff21237d3": {
-        "type": "acquaintance",
-        "strength": 0.37
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.8
       },
-      "agent_c6d010d0f5ba4f4882f5e38f04f34c55": {
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.76
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
         "type": "coworker",
         "strength": 0.6
       },
-      "agent_dd6ab2bfc6cf48b3bfab4aaadbc3ffeb": {
-        "type": "acquaintance",
-        "strength": 0.39
+      "agent_7def2b8bf26d494fadbf76948e256804": {
+        "type": "coworker",
+        "strength": 0.58
+      }
+    }
+  },
+  {
+    "id": "agent_f7befbf7e3bb46efa376b5a5b6ced7d2",
+    "name": "Margaret Lewis",
+    "gender": "Female",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "High school",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "front aisle desk",
+      "activity": "taking detailed notes",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_66321b527b224ff7bcee5c666af87ff2": {
+        "type": "coworker",
+        "strength": 0.57
       },
-      "agent_860b0242359c4e218643dac4c454f4e4": {
-        "type": "acquaintance",
-        "strength": 0.35
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.79
       },
-      "agent_853427548fd04cf382781fb3f6ed29f9": {
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.79
+      },
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.58
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.55
+      },
+      "agent_7e4da6d4337a43658a7170085b17f44d": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.6
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_0a343c4b42184e7eab872b04ccc88fe5": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.64
+      }
+    }
+  },
+  {
+    "id": "agent_de24bf6d54354592897a007dc4102c3d",
+    "name": "Paul Lee",
+    "gender": "Male",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "middle back desk",
+      "activity": "listening attentively",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_66321b527b224ff7bcee5c666af87ff2": {
+        "type": "coworker",
+        "strength": 0.71
+      },
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.64
+      },
+      "agent_3ab604d44ee5415cac7d63e8c23bcc27": {
+        "type": "coworker",
+        "strength": 0.7
+      },
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_da5cd1f6b54946d08115662a371d8873": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_439a2b1e53af4261b2c5b15297253e30": {
+        "type": "coworker",
+        "strength": 0.55
+      },
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.62
+      },
+      "agent_7e4da6d4337a43658a7170085b17f44d": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77": {
+        "type": "coworker",
+        "strength": 0.75
+      }
+    }
+  },
+  {
+    "id": "agent_0a343c4b42184e7eab872b04ccc88fe5",
+    "name": "Sandra Walker",
+    "gender": "Female",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "side aisle desk",
+      "activity": "cross-referencing materials",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_af18e99fed524a1ca5b2519ec847d2d7": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_66321b527b224ff7bcee5c666af87ff2": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.7
+      },
+      "agent_3ab604d44ee5415cac7d63e8c23bcc27": {
+        "type": "coworker",
+        "strength": 0.75
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.69
+      },
+      "agent_e8af51f54f04419186bed4779931401d": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.58
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.65
+      }
+    }
+  },
+  {
+    "id": "agent_b82df36d76fb415cbe9111d58567ff36",
+    "name": "Mark Hall",
+    "gender": "Male",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "center front desk",
+      "activity": "formulating arguments",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.7
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.77
+      },
+      "agent_7e4da6d4337a43658a7170085b17f44d": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.75
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.67
+      },
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
+        "type": "coworker",
+        "strength": 0.6
+      },
+      "agent_056fd45e6c294561ad556e570dbd0dc6": {
+        "type": "acquaintance",
+        "strength": 0.44
+      }
+    }
+  },
+  {
+    "id": "agent_7def2b8bf26d494fadbf76948e256804",
+    "name": "Donna Allen",
+    "gender": "Female",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "back window desk",
+      "activity": "analyzing rhetoric",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.65
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.74
+      },
+      "agent_b9a68ed0bed3416682a755b139dcf0bf": {
+        "type": "coworker",
+        "strength": 0.58
+      }
+    }
+  },
+  {
+    "id": "agent_0f63cecb3af6421492a20f48ab86e40e",
+    "name": "George Young",
+    "gender": "Male",
+    "age": 17,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "College",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "middle window desk",
+      "activity": "studying social structures",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "coworker",
+        "strength": 0.56
+      },
+      "agent_7b8570ab707744c4be65af1cbf1d10d8": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_90a9447bb9a24b938acac0b0fcc1c02f": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_bd0e96054c7941b48fbd25e79f11b74e": {
+        "type": "coworker",
+        "strength": 0.59
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_3f974def7b5141b99741cfbdee93e05e": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
+        "type": "coworker",
+        "strength": 0.61
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "coworker",
+        "strength": 0.59
+      }
+    }
+  },
+  {
+    "id": "agent_e9f4f80c2e0f4477abeb97bfa2dfdc77",
+    "name": "Carol King",
+    "gender": "Female",
+    "age": 18,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "High school",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "front window desk",
+      "activity": "comparing governments",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_3ab604d44ee5415cac7d63e8c23bcc27": {
+        "type": "coworker",
+        "strength": 0.72
+      },
+      "agent_1ba5aa75dd45431594d11d8a1929e6df": {
+        "type": "coworker",
+        "strength": 0.73
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.68
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.58
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_f7befbf7e3bb46efa376b5a5b6ced7d2": {
+        "type": "coworker",
+        "strength": 0.64
+      },
+      "agent_de24bf6d54354592897a007dc4102c3d": {
+        "type": "coworker",
+        "strength": 0.75
+      }
+    }
+  },
+  {
+    "id": "agent_8a2f34e03b8b4583ae78eeee60115a91",
+    "name": "Kenneth Scott",
+    "gender": "Male",
+    "age": 16,
+    "occupation": "student",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "back aisle desk",
+      "activity": "examining historical photos",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_463dc8e1ecce4770a0f04c906922d4e2": {
+        "type": "coworker",
+        "strength": 0.78
+      },
+      "agent_350a45e5d1964dbb8fff3a539ad29055": {
+        "type": "coworker",
+        "strength": 0.7
+      },
+      "agent_3fc076fbd0704332a2c28f09ab13df7d": {
+        "type": "coworker",
+        "strength": 0.8
+      },
+      "agent_b31ece136ba34803807dc0527161d194": {
+        "type": "coworker",
+        "strength": 0.57
+      },
+      "agent_6bb31abab255438ea83a679b098cf971": {
+        "type": "coworker",
+        "strength": 0.66
+      },
+      "agent_0f63cecb3af6421492a20f48ab86e40e": {
+        "type": "coworker",
+        "strength": 0.59
+      },
+      "agent_056fd45e6c294561ad556e570dbd0dc6": {
+        "type": "acquaintance",
+        "strength": 0.42
+      }
+    }
+  },
+  {
+    "id": "agent_056fd45e6c294561ad556e570dbd0dc6",
+    "name": "Dorothy Green",
+    "gender": "Female",
+    "age": 17,
+    "occupation": "teacher",
+    "income_level": "USD 2k-5k/mo",
+    "education": "Master's",
+    "description": "Ordinary resident; cooperative and family-oriented.",
+    "initial_memory": [
+      "Cares about rules",
+      "Sensitive to peer opinions",
+      "Willing to cooperate"
+    ],
+    "initial_state": {
+      "location": "teacher's desk",
+      "activity": "leading discussion",
+      "mood": "calm",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "surprise": 0.0,
+        "disgust": 0.0,
+        "trust": 0.0,
+        "anticipation": 0.0,
+        "optimism": 0.0,
+        "anxiety": 0.0,
+        "guilt": 0.0,
+        "pride": 0.0,
+        "shame": 0.0,
+        "envy": 0.0,
+        "gratitude": 0.0,
+        "hope": 0.0,
+        "intensity": 0.0,
+        "timestamp": 1761461180.0,
+        "context": "personality + context: Initial mood: calm, Personality: Ordinary resident; cooperative and family-oriented."
+      }
+    },
+    "relations": {
+      "agent_a55a1419fcac425cbb6295dece7a6ef9": {
+        "type": "acquaintance",
+        "strength": 0.5
+      },
+      "agent_4e6b133d79b04676bcab0da60211af69": {
+        "type": "acquaintance",
+        "strength": 0.4
+      },
+      "agent_3a2133285ec54dea9a52132a8f8388fb": {
         "type": "acquaintance",
         "strength": 0.59
+      },
+      "agent_b82df36d76fb415cbe9111d58567ff36": {
+        "type": "acquaintance",
+        "strength": 0.44
+      },
+      "agent_8a2f34e03b8b4583ae78eeee60115a91": {
+        "type": "acquaintance",
+        "strength": 0.42
       }
     }
   }

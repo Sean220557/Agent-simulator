@@ -1,8 +1,8 @@
 {
   "name": "第三浪潮实验",
   "slug": "第三浪潮实验",
-  "relation_influence": 0.9,
-  "count": 60,
+  "relation_influence": 0.8,
+  "count": 30,
   "paths": {
     "agents": "experiments/第三浪潮实验/agents.json",
     "env": "experiments/第三浪潮实验/env.json",
