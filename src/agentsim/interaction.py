@@ -6,20 +6,20 @@ from .models import AgentTickOutput, EnvSpec
 GROUP_SYS = """You simulate interactions among multiple agents at the SAME location inside a shared world.
 OUTPUT MUST BE IN ENGLISH ONLY.
 Output STRICT JSON ONLY per the schema. Never include code fences or extra text.
+KEEP RESPONSES CONCISE TO AVOID TRUNCATION.
 
 # Output schema (JSON object)
 {
   "location": "current place",
-  "notes": "short summary of the encounter (optional, in English)",
+  "notes": "brief summary (max 50 words)",
   "agents": [
     {
       "agent_id": "a1",
-      "action": "action in English",
-      "speech": "spoken words in English (can be empty)",
-      "state": { "key": "value" },
-      "thoughts": "inner monologue in English",
-      "location": "new place if moved; otherwise keep",
-      "memory": ["memory items for this tick, English"]
+      "action": "brief action (max 10 words)",
+      "speech": "speech (max 20 words, empty if not ALLOWED_SPEAKER)",
+      "thoughts": "brief thought (max 15 words)",
+      "location": "same or new",
+      "memory": ["brief items (max 3)"]
     }
   ]
 }
@@ -29,6 +29,7 @@ Output STRICT JSON ONLY per the schema. Never include code fences or extra text.
 - Prefer dialogue/coordination pairs from ALLOWED_PAIRS; avoid others unless unavoidable.
 - Respect the environment rules & plausible social behavior.
 - Keep each person's update coherent with their last known state.
+- BREVITY IS CRITICAL: use short phrases, not full sentences.
 """
 
 GROUP_USER_TPL = """[Environment]

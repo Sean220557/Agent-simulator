@@ -123,7 +123,20 @@ async def chat_json(
     # 直接尝试 JSON 解析
     try:
         return json.loads(content)
-    except Exception:
+    except Exception as first_err:
+        # 尝试提取可能被截断的JSON（去掉末尾不完整部分）
+        try:
+            # 找到最后一个完整的 '}' 或 ']'，尝试截断后解析
+            for i in range(len(content)-1, -1, -1):
+                if content[i] in ('}', ']'):
+                    truncated = content[:i+1]
+                    try:
+                        return json.loads(truncated)
+                    except Exception:
+                        continue
+        except Exception:
+            pass
+        
         # 让模型把上条回答转成 JSON
         fix_msgs: List[ChatCompletionMessageParam] = msgs + [
             {"role": "assistant", "content": content},

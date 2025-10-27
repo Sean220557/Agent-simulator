@@ -252,15 +252,16 @@ async def start_simulation(exp_slug: str, req: StartSimulationRequest, backgroun
     if not os.path.exists(exp_path):
         raise HTTPException(status_code=404, detail="实验不存在")
     
-    # 在后台启动模拟
-    background_tasks.add_task(
-        run_simulation_background,
-        exp_slug,
-        exp_path,
-        req.temperature,
-        req.max_tokens,
-        req.interval,
-        req.max_ticks
+    # 在后台启动模拟（显式调度异步任务）
+    asyncio.create_task(
+        run_simulation_background(
+            exp_slug,
+            exp_path,
+            req.temperature,
+            req.max_tokens,
+            req.interval,
+            req.max_ticks,
+        )
     )
     
     return {

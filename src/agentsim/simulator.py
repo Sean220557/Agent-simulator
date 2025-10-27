@@ -75,28 +75,46 @@ async def simulate_step_for_agent(
     for it in prev_items:
         acc_memory.extend(it.memory)
 
-    data = await chat_json(
-        system=AGENT_SYS_TEMPLATE,
-        messages=[{
-            "role": "user",
-            "content": AGENT_USER_TEMPLATE.format(
-                env_title=env.title,
-                env_prompt=env.prompt,
-                env_rules="\n".join(f"- {r}" for r in env.rules) if env.rules else "(none)",
-                visible_context=visible or "(none)",
-                agent_id=agent.id,
-                agent_name=agent.name,
-                agent_desc=agent.description,
-                initial_memory=json.dumps(agent.initial_memory, ensure_ascii=False),
-                acc_memory=json.dumps(acc_memory, ensure_ascii=False),
-                last_state=json.dumps(last_state_dict, ensure_ascii=False),
-                last_location=last_location,
-                tick=tick,
-            ),
-        }],
-        temperature=config.temperature,
-        max_tokens=config.max_tokens,
-    )
+    try:
+        data = await chat_json(
+            system=AGENT_SYS_TEMPLATE,
+            messages=[{
+                "role": "user",
+                "content": AGENT_USER_TEMPLATE.format(
+                    env_title=env.title,
+                    env_prompt=env.prompt,
+                    env_rules="\n".join(f"- {r}" for r in env.rules) if env.rules else "(none)",
+                    visible_context=visible or "(none)",
+                    agent_id=agent.id,
+                    agent_name=agent.name,
+                    agent_desc=agent.description,
+                    initial_memory=json.dumps(agent.initial_memory, ensure_ascii=False),
+                    acc_memory=json.dumps(acc_memory, ensure_ascii=False),
+                    last_state=json.dumps(last_state_dict, ensure_ascii=False),
+                    last_location=last_location,
+                    tick=tick,
+                ),
+            }],
+            temperature=config.temperature,
+            max_tokens=config.max_tokens,
+        )
+    except Exception as e:
+        # Fallback without LLM to keep the simulation progressing
+        data = {
+            "action": "observe",
+            "speech": "",
+            "state": {},
+            "thoughts": f"Fallback due to LLM error: {str(e)[:120]}",
+            "location": last_location,
+            "memory": [],
+        }
+        append_agent_log(agent.name, {
+            "type": "tick.fallback",
+            "tick": tick,
+            "agent_id": agent.id,
+            "reason": "llm_error",
+            "error": str(e),
+        })
 
     # 生成情绪状态
     current_emotion = None
@@ -182,6 +200,8 @@ async def run_tick_with_interactions(
     history: Dict[str, List[AgentTickOutput]],
 ) -> List[AgentTickOutput]:
     G = build_relation_graph(agents)
+    # Create agent_id to name mapping for logging
+    id_to_name: Dict[str, str] = {a.id: a.name for a in agents}
 
     intents = await asyncio.gather(*[
         simulate_step_for_agent(a, env, config, tick, history) for a in agents
@@ -192,78 +212,119 @@ async def run_tick_with_interactions(
         temp_history[out.agent_id].append(out)
 
     groups = group_by_location(temp_history)
-    group_results: Dict[str, Dict[str, Any]] = {}
+    # a location may produce multiple chunked interaction results
+    group_results: Dict[str, List[Dict[str, Any]]] = {}
 
     for location, participants in groups.items():
         ids_here = [p.agent_id for p in participants]
         rel_summary = local_relation_summary(G, ids_here)
-        allowed_speakers = pick_speakers_hard(G, ids_here, alpha=config.relation_influence, base_k=min(3, len(ids_here)))
-        pairs: List[List[str]] = []
+        allowed_speakers_all = pick_speakers_hard(G, ids_here, alpha=config.relation_influence, base_k=min(3, len(ids_here)))
+        pairs_all: List[List[str]] = []
         for i, u in enumerate(ids_here):
             for v in ids_here[i+1:]:
                 rec = G.get(u, {}).get(v)
                 if rec and pair_trust_weight(rec) >= 0.55 * config.relation_influence:
-                    pairs.append([u, v])
+                    pairs_all.append([u, v])
         local_visible = make_local_context(tick, history, focus_agent_id="", focus_location=location)
 
-        data = await simulate_group_interaction(
-            env=env,
-            location=location,
-            tick=tick,
-            local_visible=local_visible,
-            participants=participants,
-            relations_summary=rel_summary,
-            allowed_speakers=allowed_speakers,
-            allowed_pairs=pairs,
-            temperature=config.temperature,
-            max_tokens=max(config.max_tokens, 900),
-        )
-        group_results[location] = data
+        # Chunk to avoid oversized JSON from LLM (reduce truncation/parse errors)
+        chunk_size = 5  # Reduced from 10 to 5 for safer token budget
+        chunks: List[List[AgentTickOutput]] = [participants[i:i+chunk_size] for i in range(0, len(participants), chunk_size)]
+        group_results[location] = []
 
-        note = data.get("notes")
-        if note:
+        for chunk_index, part_chunk in enumerate(chunks):
+            chunk_ids = [p.agent_id for p in part_chunk]
+            allowed_speakers = [aid for aid in allowed_speakers_all if aid in chunk_ids]
+            pairs = [pair for pair in pairs_all if pair[0] in chunk_ids and pair[1] in chunk_ids]
+
+            try:
+                data = await simulate_group_interaction(
+                    env=env,
+                    location=location,
+                    tick=tick,
+                    local_visible=local_visible,
+                    participants=part_chunk,
+                    relations_summary=rel_summary,
+                    allowed_speakers=allowed_speakers,
+                    allowed_pairs=pairs,
+                    temperature=config.temperature,
+                    max_tokens=max(config.max_tokens, 800),  # Ensure minimum 800 for group interactions
+                )
+            except Exception as e:
+                # Group interaction fallback for this chunk
+                data = {
+                    "location": location,
+                    "tick": tick,
+                    "notes": f"Group fallback due to LLM error: {str(e)[:120]}",
+                    "agents": [
+                        {
+                            "agent_id": p.agent_id,
+                            "action": "idle",
+                            "speech": "",
+                            "state": {},
+                            "thoughts": "",
+                            "location": p.location,
+                            "memory": [],
+                        }
+                        for p in part_chunk
+                    ],
+                }
+                for p in part_chunk:
+                    append_agent_log(id_to_name.get(p.agent_id, p.agent_id), {
+                        "type": "group.fallback",
+                        "tick": tick,
+                        "location": location,
+                        "reason": "llm_error",
+                        "error": str(e),
+                    })
+
+            group_results[location].append(data)
+
+            note = data.get("notes")
             append_event_log({
                 "type": "encounter",
                 "tick": tick,
                 "location": location,
-                "notes": note,
-                "participants": ids_here,
+                "notes": note or "",
+                "participants": chunk_ids,
+                "chunk": chunk_index,
             })
 
     final_outputs: Dict[str, AgentTickOutput] = {o.agent_id: o for o in intents}
-    for location, data in group_results.items():
-        for item in data.get("agents", []):
-            aid = str(item.get("agent_id", ""))
-            if not aid or aid not in final_outputs:
-                continue
-            base = final_outputs[aid]
-            base.action = str(item.get("action", base.action) or base.action)
-            base.speech = str(item.get("speech", base.speech) or base.speech)
-            base.thoughts = str(item.get("thoughts", base.thoughts) or base.thoughts)
-            base.location = str(item.get("location", base.location) or base.location)
-            base.state.update(item.get("state") or {})
-            new_mem = item.get("memory") or []
-            if new_mem:
-                base.memory.extend(list(new_mem))
-            
-            # 更新情绪状态（如果群体交互影响了情绪）
-            if "emotion" in item:
-                try:
-                    base.emotion = EmotionProfile.from_dict(item["emotion"])
-                    base.state["emotion"] = base.emotion.to_dict()
-                except Exception:
-                    pass
+    for location, data_list in group_results.items():
+        for data in data_list:
+            for item in data.get("agents", []):
+                aid = str(item.get("agent_id", ""))
+                if not aid or aid not in final_outputs:
+                    continue
+                base = final_outputs[aid]
+                base.action = str(item.get("action", base.action) or base.action)
+                base.speech = str(item.get("speech", base.speech) or base.speech)
+                base.thoughts = str(item.get("thoughts", base.thoughts) or base.thoughts)
+                base.location = str(item.get("location", base.location) or base.location)
+                base.state.update(item.get("state") or {})
+                new_mem = item.get("memory") or []
+                if new_mem:
+                    base.memory.extend(list(new_mem))
 
-            append_agent_log(aid, {
-                "type": "tick.final",
-                "tick": tick,
-                "location": base.location,
-                "action": base.action,
-                "speech": base.speech,
-                "state": base.state,
-                "thoughts": base.thoughts,
-                "memory": base.memory,
-                "emotion": base.emotion.to_dict() if base.emotion else None,
-            })
+                # 更新情绪状态（如果群体交互影响了情绪）
+                if "emotion" in item:
+                    try:
+                        base.emotion = EmotionProfile.from_dict(item["emotion"])
+                        base.state["emotion"] = base.emotion.to_dict()
+                    except Exception:
+                        pass
+
+                append_agent_log(id_to_name.get(aid, aid), {
+                    "type": "tick.final",
+                    "tick": tick,
+                    "location": base.location,
+                    "action": base.action,
+                    "speech": base.speech,
+                    "state": base.state,
+                    "thoughts": base.thoughts,
+                    "memory": base.memory,
+                    "emotion": base.emotion.to_dict() if base.emotion else None,
+                })
 
     return list(final_outputs.values())
